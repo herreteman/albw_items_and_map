@@ -10,6 +10,7 @@ Up to date logic with randomizer version 0.1.0
 * Sequence break logic for most skips (Fake Flippers, Desert Palace Skip, Early Ravio Shop, etc.), with the exception of Low% Zaganaga
 
 ## Planned
+* Google Docs Quick Start/FAQ as documentation
 * Clean up some location logic with LUA
 * Presets/toggles for settings (when that becomes clearer/easier to manage in the rando)
 * Update for any changes in the randomizer

@@ -1,0 +1,25 @@
+{
+    "name": "Herreteman's Packages",
+    "packages": [
+      {
+        "name": "A Link Between Worlds Randomizer Tracker",
+        "author": "Herreteman",
+        "game_name": "A Link Between Worlds Randomizer",
+        "version": "1.0.1",
+        "flags": [ "map", "pins" ],
+        "required_app_version": "2.3.8.11",
+        "uid": "albw_items_and_map",
+        "link": "",
+        "variants": [
+          {
+            "name": "Map Tracker",
+            "flags": [ "map", "pins" ]
+          },
+          {
+            "name": "Itema Only",
+            "flags": [  ]
+          }
+        ]
+      }
+    ]
+  }

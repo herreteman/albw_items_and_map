@@ -9,14 +9,14 @@
         "flags": [ "map", "pins" ],
         "required_app_version": "2.3.8.11",
         "uid": "albw_items_and_map",
-        "link": "",
+        "link": "https://github.com/herreteman/albw_items_and_map/releases/download/v1.0/albw_items_and_map.zip",
         "variants": [
           {
             "name": "Map Tracker",
             "flags": [ "map", "pins" ]
           },
           {
-            "name": "Itema Only",
+            "name": "Items Only",
             "flags": [  ]
           }
         ]

@@ -1,6 +1,6 @@
 # A Link Between Worlds Randomizer tracker pack for EmoTracker
 
-Discord server and downloads for the ALBW randomizer: [add later]
+Discord server and downloads for the ALBW randomizer: https://discord.gg/dmAJh2uY7M
 
 Up to date logic with randomizer version 0.1.0
 

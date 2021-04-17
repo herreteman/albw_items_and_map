@@ -655,22 +655,38 @@
 
                     {
                         "name": "B1F eyes big chest",
+                        "access_rules": [
+                            "frod",
+                            "lamp"  
+                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "Surface chest",
+                        "access_rules": [
+                            "frod",
+                            "lamp"  
+                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F south big chest",
+                        "access_rules": [
+                            "frod",
+                            "lamp"  
+                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "Knucklemaster reward",
                         "hosted_item": "seres",
+                        "access_rules": [
+                            "[frod]",
+                            "[lamp]"  
+                        ],
                         "item_count": 0
                     }
                 ]

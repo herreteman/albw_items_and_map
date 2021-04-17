@@ -1,0 +1,14 @@
+﻿[
+  {
+    "name": "hyrule",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/hyrule.png"
+  },
+  {
+    "name": "lorule",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/lorule.png"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  // Eastern Palace
+  {
+    "name": "Eastern Palace",
+    "type": "toggle",
+    "img": "images/sprite/pendant_green.png",
+    "codes": "ep,eastern,greenpendant"
+  },
+
+  // House of Gales
+  {
+    "name": "House of Gales",
+    "type": "toggle",
+    "img": "images/sprite/pendant_blue.png",
+    "codes": "hog,gales,bluependant"
+  },
+
+  // Tower of Hera
+  {
+    "name": "Tower of Hera",
+    "type": "toggle",
+    "img": "images/sprite/pendant_red.png",
+    "codes": "toh,hera,redpendant"
+  },
+
+  // Dark Palace
+  {
+    "name": "Dark Palace",
+    "type": "toggle",
+    "img": "images/sprite/sage_gulley.png",
+    "codes": "pod,dark,gulley"
+  },
+
+  // Turtle Rock
+  {
+    "name": "Turtle Rock",
+    "type": "toggle",
+    "img": "images/sprite/sage_impa.png",
+    "codes": "tr,turtle,impa"
+  },
+
+  // Desert Palace
+  {
+    "name": "Desert Palace",
+    "type": "toggle",
+    "img": "images/sprite/sage_irene.png",
+    "codes": "dp,desert,irene,bestgirl"
+  },
+
+  // Swamp Palace
+  {
+    "name": "Swamp Palace",
+    "type": "toggle",
+    "img": "images/sprite/sage_oren.png",
+    "codes": "sp,swamp,oren"
+  },
+
+  // Thieves' Hideout
+  {
+    "name": "Thieves' Hideout",
+    "type": "toggle",
+    "img": "images/sprite/sage_osfala.png",
+    "codes": "th,thieves,osfala"
+  },
+
+  // Ice Palace
+  {
+    "name": "Ice Palace",
+    "type": "toggle",
+    "img": "images/sprite/sage_rosso.png",
+    "codes": "ip,ice,rosso"
+  },
+
+  // Skull Woods
+  {
+    "name": "Skull Woods",
+    "type": "toggle",
+    "img": "images/sprite/sage_seres.png",
+    "codes": "sw,skull,seres"
+  }
+]

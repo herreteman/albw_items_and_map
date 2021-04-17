@@ -1,0 +1,146 @@
+[
+  // Green Tunic
+  {
+    "name": "Green Tunic",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [          
+      {
+        "img": "images/sprite/armor1.png",
+        "codes": "greentunic,armor1"
+      },
+      {
+        "name": "Blue Tunic",
+        "img": "images/sprite/armor2.png",
+        "codes": "bluetunic,armor2"
+      },
+      {
+        "name": "Red Tunic",
+        "img": "images/sprite/armor3.png",
+        "codes": "redtunic,armor3"
+      }
+    ]
+  },
+  
+  // Bee Badge
+  {
+    "name": "Bee Badge",
+    "type": "toggle",
+    "img": "images/sprite/beebadge.png",
+    "codes": "beebadge"
+  },
+
+  // Irene's Bell
+  {
+    "name": "Irene's Bell",
+    "type": "toggle",
+    "img": "images/sprite/bell.png",
+    "codes": "bell,irenebell"
+  },
+
+  // Pegasus Boots
+  {
+    "name": "Pegasus Boots",
+    "type": "toggle",
+    "img": "images/sprite/boots.png",
+    "codes": "boots,pegasusboots"
+  },
+
+  // Gloves
+  {
+    "name": "Power Glove",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/strength1.png",
+        "codes": "strength1,powerglove"
+      },
+      {
+        "img": "images/sprite/strength2.png",
+        "codes": "strength2,titanmitts"
+      }
+    ]
+  },
+
+  // Ravio's Bracelet
+  {
+    "name": "Ravio's Bracelet",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/bracelet1.png",
+        "codes": "bracelet"
+      },
+      {
+        "img": "images/sprite/bracelet2.png",
+        "codes": "merge"
+      }
+    ]
+  },
+
+  // Flippers
+  {
+    "name": "Zora's Flippers",
+    "type": "toggle",
+    "img": "images/sprite/flippers.png",
+    "codes": "flippers,swim"
+  },
+
+  // Pegasus Boots
+  {
+    "name": "Pegasus Boots",
+    "type": "toggle",
+    "img": "images/sprite/boots.png",
+    "codes": "boots,pegasusboots"
+  },
+
+  // Maiamai
+  {
+    "name": "Maiamai",
+    "type": "consumable",
+    "img": "images/sprite/maiamai.png",
+    "codes": "maiamai,mai",
+    "max_quantity": 100
+  },
+
+  // Master Ore
+  {
+    "name": "Master Ore",
+    "type": "consumable",
+    "img": "images/sprite/ore.png",
+    "codes": "masterore,ore",
+    "max_quantity": 4
+  },
+
+  // Pouch
+  {
+    "name": "Pouch",
+    "type": "toggle",
+    "img": "images/sprite/pouch.png",
+    "codes": "pouch"
+  },
+
+  // Stamina Scroll
+  {
+    "name": "Stamina Scroll",
+    "type": "toggle",
+    "img": "images/sprite/scroll.png",
+    "codes": "scroll,staminascroll"
+  },
+
+  // Smooth Gem
+  {
+    "name": "Smooth Gem",
+    "type": "toggle",
+    "img": "images/sprite/smoothgem.png",
+    "codes": "smoothgem"
+  },
+
+  // Triforce
+  {
+    "name": "Triforce",
+    "type": "toggle",
+    "img": "images/sprite/triforce.png",
+    "codes": "triforce"
+  }
+]

@@ -1,0 +1,324 @@
+[
+  // Bombs
+  {
+    "name": "Bombs",
+    "type": "progressive",
+    "codes": "bombs",
+    "stages": [          
+      {
+        "img": "images/sprite/bombs.png",
+        "codes": "bombs"
+      },
+      {
+        "name": "Nice Bombs",
+        "img": "images/sprite/bombs_nice.png",
+        "codes": "bombs2,nicebombs"
+      }
+    ]
+  },  
+  
+  // Boomerang
+  {
+    "name": "Boomerang",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/boomerang.png",
+        "codes": "boomerang"
+      },
+      {
+        "name": "Nice Boomerang",
+        "img": "images/sprite/boomerang_nice.png",
+        "codes": "boomerang2,niceboomerang"
+      }
+    ]
+  }, 
+
+  // Bow
+  {
+    "name": "Bow",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/bow.png",
+        "codes": "bow"
+      },
+      {
+        "name": "Nice Bow",
+        "img": "images/sprite/bow_nice.png",
+        "codes": "bow2,nicebow"
+      }
+    ]
+  },
+  
+  // Bow of Light
+  {
+    "name": "Bow of Light",
+    "type": "toggle",
+    "img": "images/sprite/bow_light.png",
+    "codes": "bowlight"
+  },
+
+  // Fire Rod
+  {
+    "name": "Fire Rod",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/frod.png",
+        "codes": "frod,firerod"
+      },
+      {
+        "name": "Nice Fire Rod",
+        "img": "images/sprite/frod_nice.png",
+        "codes": "frod2,firerod2,nicefrod,nicefirerod"
+      }
+    ]
+  },
+
+  // Hammer
+  {
+    "name": "Hammer",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/hammer.png",
+        "codes": "hammer"
+      },
+      {
+        "name": "Nice Hammer",
+        "img": "images/sprite/hammer_nice.png",
+        "codes": "hammer2,nicehammer"
+      }
+    ]
+  },
+
+  // Hint Glasses
+  {
+    "name": "Hint Glasses",
+    "type": "toggle",
+    "img": "images/sprite/hintglasses.png",
+    "codes": "hintglasses,glasses"
+  },
+
+  // Hookshot
+  {
+    "name": "Hookshot",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/hookshot.png",
+        "codes": "hookshot"
+      },
+      {
+        "name": "Nice Hookshot",
+        "img": "images/sprite/hookshot_nice.png",
+        "codes": "hookshot2,nicehookshot"
+      }
+    ]
+  },
+
+  // Ice Rod
+  {
+    "name": "Ice Rod",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/irod.png",
+        "codes": "irod,icerod"
+      },
+      {
+        "name": "Nice Ice Rod",
+        "img": "images/sprite/irod_nice.png",
+        "codes": "irod2,icerod2,niceirod,niceicerod"
+      }
+    ]
+  },
+
+  // Lamp
+  {
+    "name": "Lamp",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/lamp.png",
+        "codes": "lamp"
+      },
+      {
+        "name": "Super Lamp",
+        "img": "images/sprite/lamp_nice.png",
+        "codes": "lamp2,superlamp"
+      }
+    ]
+  },
+
+  // Bug Net
+  {
+    "name": "Bug Net",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/net.png",
+        "codes": "bugnet"
+      },
+      {
+        "name": "Super Net",
+        "img": "images/sprite/net_nice.png",
+        "codes": "bugnet2,supernet,superbugnet"
+      }
+    ]
+  },
+
+  // Sand Rod
+  {
+    "name": "Sand Rod",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/srod.png",
+        "codes": "srod,sandrod"
+      },
+      {
+        "name": "Nice Sand Rod",
+        "img": "images/sprite/srod_nice.png",
+        "codes": "srod2,sansrod2,nicesrod,nicesandrod"
+      }
+    ]
+  },
+
+  // Tornado Rod
+  {
+    "name": "Tornado Rod",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/trod.png",
+        "codes": "trod,tornadorod"
+      },
+      {
+        "name": "Nice Tornado Rod",
+        "img": "images/sprite/trod_nice.png",
+        "codes": "trod2,tornadorod2,nicetrod,nicetornadorod"
+      }
+    ]
+  },
+
+  // Swords
+  {
+    "name": "Forgotten Sword",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/sword1.png",
+        "codes": "sword1,forgottensword,herosword"
+      },
+      {
+        "name": "Master Sword",
+        "img": "images/sprite/sword2.png",
+        "codes": "sword2,mastersword,ms"
+      },
+      {
+        "name": "Tempered Sword",
+        "img": "images/sprite/sword3.png",
+        "codes": "sword3,tempered,temperedsword,mslvl2"
+      },
+      {
+        "name": "Golden Sword",
+        "img": "images/sprite/sword4.png",
+        "codes": "sword4,goldsword,mslvl3"
+      }
+    ]
+  },
+
+  // Shields
+  {
+    "name": "Shield",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/shield1.png",
+        "codes": "shield"
+      },
+      {
+        "name": "Hylian Shield",
+        "img": "images/sprite/shield2.png",
+        "codes": "shield2,hylianshield"
+      }
+    ]
+  },
+
+  // Bottles
+  {
+    "name": "Bottles",
+    "type": "consumable",
+    "img": "images/sprite/bottle.png",
+    "codes": "bottle",
+    "max_quantity": 5
+  },
+
+  // Bottle with letter
+  // Use this if/when the letter and milk become separate fetch quests
+  /*{
+    "name": "Letter in a Bottle",
+    "type": "toggle",
+    "img": "images/sprite/bottle_letter.png",
+    "codes": "bottle_letter,letter"
+  },*/
+
+  // Bottle quest
+  {
+    "name": "Letter in a Bottle",
+    "type": "progressive",
+    "stages": [          
+      {
+        "img": "images/sprite/bottle_letter.png",
+        "codes": "bottle_letter,letter"
+      },
+      {
+        "name": "Premium Milk",
+        "img": "images/sprite/bottle_milk.png",
+        "codes": "milk_quest"
+      }
+    ]
+  },
+
+  // Bottle with bee
+  {
+    "name": "Bee",
+    "type": "toggle",
+    "img": "images/sprite/bottle_bee.png",
+    "codes": "bottle_bee,bee"
+  },
+
+  // Bottle with golden bee
+  {
+    "name": "Golden Bee",
+    "type": "toggle",
+    "img": "images/sprite/bottle_goldbee.png",
+    "codes": "bottle_goldbee,goldbee"
+  },
+
+  // Bottle with premium milk
+  {
+    "name": "Premium Milk",
+    "type": "toggle",
+    "img": "images/sprite/bottle_milk.png",
+    "codes": "bottle_milk,bottle_premiummilk,premiummilk"
+  },
+
+  // Foul Fruit
+  {
+    "name": "Foul Fruit",
+    "type": "toggle",
+    "img": "images/sprite/fruit_foul.png",
+    "codes": "foulfruit,foul"
+  },
+
+  // Scoot Fruit
+  {
+    "name": "Scoot Fruit",
+    "type": "toggle",
+    "img": "images/sprite/fruit_scoot.png",
+    "codes": "scootfruit,scoot"
+  }
+]

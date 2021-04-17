@@ -1,0 +1,490 @@
+[
+    {
+        "name": "Lorule",
+        "access_rules": [
+            "ms, merge"
+        ],
+        "children": [
+
+            // Dark Palace area
+            {
+                "name": "Dark Ruins",
+                "color": "#000008",
+                "children":
+                [
+                    {
+                        "name": "Scared Hinox",
+                        "short_name": "Hinox",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 458,
+                            "y": 142
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Free items",
+                            "access_rules": [ 
+                            ],
+                            "item_count": 6
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Edge of the lake",
+                        "short_name": "Lake edge",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 425,
+                            "y": 398
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Dead end chest",
+                            "access_rules": [ 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Dark Maze",
+                        "short_name": "Dark Maze",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 410,
+                            "y": 250
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "West path chest",
+                            "access_rules": [ 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    }
+                ]
+            },
+
+            // Dark Kak + Abandoned House + Swamp area
+            {
+                "name": "Lorule Field",
+                "color": "#6100b5",
+                "children": [
+                    {
+                        "name": "Lorule Field Big Bomb Cave",
+                        "short_name": "Big Bomb Cave",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 150,
+                            "y": 426
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Chest",
+                            "access_rules": [ 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Rupee Big Fairy",
+                        "short_name": "Big Fairy",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 87,
+                            "y": 329
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "3000 rupee reward",
+                            "access_rules": [ 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Lorule Blacksmith",
+                        "short_name": "Lorule Blacksmith",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 160,
+                            "y": 270
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Trade 2 more ores",
+                            "access_rules": [
+                                "ore:4" 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Hookshot ledge",
+                        "short_name": "Hookshot ledge",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 150,
+                            "y": 410
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Chest",
+                            "access_rules": [
+                              "hookshot" 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Octoball Derby",
+                        "short_name": "Octoball",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 165,
+                            "y": 340
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "100 rupee reward",
+                            "access_rules": [ 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Lorule Rupee Rush",
+                        "short_name": "Lorule Rupee Rush",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 40,
+                            "y": 347
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "300 rupees reward",
+                            "access_rules": [ 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Swamp Big Bomb Cave",
+                        "short_name": "Swamp cave",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 300,
+                            "y": 462
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Chests",
+                            "access_rules": [ 
+                            ],
+                            "item_count": 2
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Thief Girl cave",
+                        "short_name": "Thief Girl",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 256,
+                            "y": 394
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Thieves completion reward",
+                            "access_rules": [
+                                "osfala" 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Pegasus Boots Treasure Dungeon",
+                        "short_name": "Boots Dungeon",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 239,
+                            "y": 332
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Treasure",
+                            "access_rules": [
+                                "boots" 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Vacant House",
+                        "short_name": "Vacant House",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 276,
+                            "y": 345
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Back entrance chest",
+                            "access_rules": [ 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    }
+                ]
+            },
+
+            // Dark Death Mountain
+            {
+                "name": "Lorule Death Mountain",
+                "color": "#ffffff",
+                "children": [
+                    {
+                        "name": "Ice Gimos fight",
+                        "short_name": "Ice Gimos",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 287,
+                            "y": 62
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Melt them!",
+                            "access_rules": [
+                                "frod" 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Platform room SW path",
+                        "short_name": "Platform room",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 423,
+                            "y": 57
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Overworld chest",
+                            "access_rules": [
+                                "hookshot, trod" 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "West Death Mountain ledge",
+                        "short_name": "Ice Gimos",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 265,
+                            "y": 87
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Chest",
+                            "access_rules": [
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    },
+
+                    {
+                        "name": "Behind ice statues",
+                        "short_name": "Ice statues",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 329,
+                            "y": 37
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Chest",
+                            "access_rules": [
+                                "hookshot, frod" 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    }
+                ]
+            },
+
+            // Cemetery / Dark Sanct
+            {
+                "name": "Cemetery",
+                "color": "#737529",
+                "children": [
+                    {
+                        "name": "Grave under rock",
+                        "short_name": "Grave under rock",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 305,
+                            "y": 157
+                          }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Entrance chest",
+                                "item_count": 1
+                              },
+                              {
+                                "name": "Lower chest",
+                                "item_count": 1
+                              },
+                              {
+                                "name": "Upper chest",
+                                "item_count": 1
+                              },
+                              {
+                                "name": "Big chest",
+                                "item_count": 1
+                              }
+                        ]
+                    },
+
+                    {
+                        "name": "SE from cemetery",
+                        "short_name": "Cemetery area",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 333,
+                            "y": 226
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Field chest",
+                            "item_count": 1
+                          }
+                        ]
+                    }
+                ]
+            },
+
+            // Misery Mire
+            {
+                "name": "Misery Mire",
+                "color": "#376362",
+                "children": [
+                    {
+                        "name": "Sand Rod Treasure Dungeon",
+                        "short_name": "Sand Rod Dungeon",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 177,
+                            "y": 447
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Treasure",
+                            "access_rules": [
+                                "srod, trod" 
+                            ],
+                            "item_count": 1
+                          }
+                        ]
+                    }
+                ]
+            },
+
+            // Lorule Lake
+            {
+                "name": "Lorule Lake",
+                "color": "#b50000",
+                "children": [
+                    {
+                        "name": "Lake north edge",
+                        "short_name": "Lorule Lake",
+                        "map_locations": [
+                          {
+                            "map": "lorule",
+                            "x": 333,
+                            "y": 367
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "name": "Field chest",
+                            "item_count": 1
+                          }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1087 @@
+[
+    // EP
+    {
+        "name": "Eastern Palace",
+        "short_name": "Eastern",
+        "color": "#80ff00",
+        "access_rules": [ 
+            "merge",
+
+            //TODO: Change these to a general projectile function 
+            "bow",
+            "hookshot",
+            "boomerang",
+            "bombs"
+        ],
+        "map_locations": [
+            {
+                "map": "hyrule",
+                "x": 480,
+                "y": 200
+            }
+        ],
+        "sections": [
+            {
+                "name": "Entrance merge chest",
+                "access_rules": [ 
+                    "merge"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Entrance left chest",
+                "access_rules": [ 
+                    //TODO: Change these to a general projectile function 
+                    "bow",
+                    "hookshot",
+                    "boomerang",
+                    "bombs"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "1F West Popos room",
+                "access_rules": [ 
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Popos room secret exit",
+                "access_rules": [ 
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "1F East switches",
+                "access_rules": [ 
+                    //TODO: Change these to a general projectile function 
+                    "bow",
+                    "hookshot",
+                    "boomerang",
+                    "bombs"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "2F Ball room",
+                "access_rules": [ 
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "2F East kill Popos",
+                "access_rules": [ 
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "2F 4 switches room",
+                "access_rules": [ 
+                    //TODO: Change these to a general projectile function 
+                    "bow",
+                    "hookshot",
+                    "boomerang",
+                    "bombs"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Big chest",
+                "access_rules": [ 
+                    //TODO: Change these to a general projectile function 
+                    "bow",
+                    "hookshot",
+                    "boomerang",
+                    "bombs"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Yuga reward",
+                "access_rules": [ 
+                    "bow",
+                    "hookshot",
+                    "boomerang",
+                    "bombs"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Post-Yuga east chest",
+                "access_rules": [ 
+                    "bow, merge",
+                    "hookshot, merge",
+                    "boomerang, merge",
+                    "bombs, merge"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "SW outside chest",
+                "access_rules": [ 
+                    "bow, merge",
+                    "hookshot, merge",
+                    "boomerang, merge",
+                    "bombs, merge"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Escape",
+                "hosted_item": "ep",
+                "access_rules": [ 
+                    "bow, [merge]",
+                    "hookshot, [merge]",
+                    "boomerang, [merge]",
+                    "bombs, [merge]"
+                ],
+                "item_count": 0
+            }
+        ]
+    },
+
+    // HoG
+    {
+        "name": "House of Gales",
+        "short_name": "Gales",
+        "color": "#0084ff",
+        "access_rules": [ 
+            "trod, flippers",
+
+            // Flipperless access
+            "trod, irod, hookshot, [flippers]"
+        ],
+        "map_locations": [
+            {
+                "map": "hyrule",
+                "x": 399,
+                "y": 426
+            }
+        ],
+        "sections": [
+            {
+                "name": "1F torch chest",
+                "access_rules": [ 
+                    "lamp",
+                    "frod"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "1F NE room",
+                "access_rules": [ 
+                    // TODO: change to a generic "hit switch" function
+                    "sword1",
+                    "bow",
+                    "hookshot",
+                    "boomerang",
+                    "bombs"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "1F Bubble room",
+                "access_rules": [ 
+                    "merge"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "1F Platform room",
+                "access_rules": [ 
+                    "merge"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "1F Platform SW",
+                "access_rules": [ 
+                    "merge"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Big chest",
+                "access_rules": [ 
+                    "merge"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "3F Bubble room",
+                "access_rules": [ 
+                    "merge, lamp",
+                    "merge, frod"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "3F Rat room",
+                "access_rules": [ 
+                    "merge, [lamp]",
+                    "merge, [frod]"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Margomill Reward",
+                "hosted_item": "hog",
+                "access_rules": [ 
+                    "merge, [lamp]",
+                    "merge, [frod]"
+                ],
+                "item_count": 0
+            }
+        ]
+    },
+
+    // ToH
+    {
+        "name": "Tower of Hera",
+        "short_name": "Hera",
+        "color": "#ff0000",
+        "access_rules": [ 
+            "strength1, [merge], hammer"
+        ],
+        "map_locations": [
+            {
+                "map": "hyrule",
+                "x": 302,
+                "y": 16
+            }
+        ],
+        "sections": [
+            {
+                "name": "1F north window",
+                "item_count": 1
+            },
+
+            {
+                "name": "1F center",
+                "item_count": 1
+            },
+
+            {
+                "name": "5F red/blue room",
+                "item_count": 1
+            },
+
+            {
+                "name": "6F right platform",
+                "item_count": 1
+            },
+
+            {
+                "name": "7F east chest",
+                "item_count": 1
+            },
+
+            {
+                "name": "8F fairy room under elevator",
+                "item_count": 1
+            },
+
+            {
+                "name": "Big chest",
+                "item_count": 1
+            },
+
+            {
+                "name": "Moldorm reward",
+                "hosted_item": "toh",
+                "item_count": 0
+            }
+        ]
+    },
+    
+    {
+        "name": "Lorule",
+        "access_rules": [
+            "ms, merge"
+        ],
+        "children": [
+            
+            // Dark
+            {
+                "name": "Dark Palace",
+                "short_name": "Dark",
+                "color": "#000008",
+                "access_rules": [ 
+                    "bombs"
+                ],
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 480,
+                        "y": 214
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Entrance right path",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F west switch puzzle",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F east hidden room",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F lower hidden room",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F north secret room",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F east alcove",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F fall from N 2F",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F maze",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F invisible floor room",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F bowling big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Gemasaur reward",
+                        "hosted_item": "gulley",
+                        "item_count": 0
+                    }
+                ]
+            },
+
+            // Swamp
+            {
+                "name": "Swamp Palace",
+                "short_name": "Swamp",
+                "color": "#002fff",
+                "access_rules": [ 
+                    "flippers, hookshot"
+                ],
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 240,
+                        "y": 463
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Center big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F center chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F rafts left",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F rafts right",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F rafts secret room",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F SW water puzzle",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F west",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F east",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Arrghus reward",
+                        "hosted_item": "oren",
+                        "item_count": 0
+                    }
+                ]
+            },
+
+            // Ice
+            {
+                "name": "Ice Ruins",
+                "short_name": "Ice",
+                "color": "#ffffff",
+                "access_rules": [ 
+                    "strength1, hookshot, frod"
+                ],
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 470,
+                        "y": 43
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Entrance hidden chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Bottom of elevator big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B3F elevator chests",
+                        "item_count": 2
+                    },
+
+                    {
+                        "name": "B1F outdoors",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F center room",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B4F 4 switches",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B4F SW fall",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B3F big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B2F far north long merge",
+                        "access_rules": [
+                            "staminascroll"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B4F SE fall",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B4F narrow platform",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Dharkstare reward",
+                        "hosted_item": "rosso",
+                        "item_count": 0
+                    }
+                ]
+            },
+
+            // Turtle
+            {
+                "name": "Turtle Rock",
+                "short_name": "Turtle",
+                "color": "#b50000",
+                "access_rules": [ 
+                    "flippers, irod",
+
+                    //Fake Flippers
+                    "trod, irod, frod, [flippers]"
+                ],
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 392,
+                        "y": 425
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "1F center switches",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F north chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F SE teleporters",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F kill all Flamolas",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F north small chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F north big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F kill east Wizzrobe",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F kill all Wizzrobes",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Grinexx reward",
+                        "hosted_item": "impa",
+                        "item_count": 0
+                    }
+                ]
+            },
+
+            // Skull
+            {
+                "name": "Skull Woods",
+                "short_name": "Skull",
+                "color": "#d3de00",
+                "access_rules": [ 
+                ],
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 65,
+                        "y": 85
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "B1F moving platforms",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F gibdo room (lower)",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F gibdo room (higher)",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F grate room",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B2F moving platform",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F eyes big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Surface chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F south big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Knucklemaster reward",
+                        "hosted_item": "seres",
+                        "item_count": 0
+                    }
+                ]
+            },
+
+            // Thieves
+            {
+                "name": "Thieves' Hideout",
+                "short_name": "Thieves",
+                "color": "#6100b5",
+                "access_rules": [ 
+                ],
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 74,
+                        "y": 248
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "B1F north door",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F statue puzzle",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B2F conveyor room",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B2F east switch room",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B2F jail cell",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B2F Eyegores",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B3F flooded cell",
+                        "access_rules": [
+                            "flippers",
+                            
+                            // From statue room OoB
+                            "trod, bombs, [flippers]",
+                            "trod, irod, [flippers]"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B3F hidden big chest",
+                        "access_rules": [
+                            "flippers",
+                            
+                            // From statue room OoB
+                            "trod, bombs, [flippers]",
+                            "trod, irod, [flippers]"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F two buttons",
+                        "access_rules": [
+                            "flippers",
+                            
+                            // From statue room OoB
+                            "trod, bombs, [flippers]",
+                            "trod, irod, [flippers]"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F big chest",
+                        "access_rules": [
+                            "flippers",
+                            
+                            // From statue room OoB
+                            "trod, bombs, [flippers]",
+                            "trod, irod, [flippers]"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Stalblind reward",
+                        "hosted_item": "osfala",
+                        "access_rules": [
+                            "flippers",
+                            
+                            // From statue room OoB
+                            "trod, bombs, [flippers]",
+                            "trod, irod, [flippers]"
+                        ],
+                        "item_count": 0
+                    }
+                ]
+            },
+
+            // Desert
+            {
+                "name": "Desert Palace (Hyrule)",
+                "short_name": "Desert",
+                "color": "#ffff00",
+                "access_rules": [
+                    "srod" 
+                ],
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 45,
+                        "y": 407
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "1F entrance",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F sand room south",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F sand switch",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F sand room north",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F center big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F miniboss south",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F west rock",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F Beamos room",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F east rock",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F ball room rock",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F big chest",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F big chest",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F near big chest",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F west Leever room",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "3F west secret room",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "3F Armos room",
+                        "access_rules": [
+                            "strength2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+
+            {
+                "name": "Desert Palace (Lorule)",
+                "short_name": "Desert",
+                "color": "#ffff00",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 45,
+                        "y": 407
+                    }
+                ],
+                "sections": [
+
+                    {
+                        "name": "Zaganaga reward",
+                        "hosted_item": "irene",
+                        "access_rules": [
+                            "srod, strength2",
+
+                            // Desert skip
+                            // Get to platform normally, frod boost, fight as normal
+                            "frod, srod, [strength2]", 
+                            // Get to platform w/ irod clip + trod, frod boost, skip fight
+                            "frod, irod, trod, boots, [srod], [strength2]",
+                            // Same as above, but Low% fight
+                            "frod, irod, trod, bow, [srod], [strength2]",
+                            // Same as above, but shitty Low% fight
+                            //"frod, irod, trod, [srod], [strength2]",
+                            
+                            // East screen bomb boost and skip
+                            "bombs, trod, boots, [srod], [strength2]",
+                            // Same as above, but Low% fight
+                            "bombs, trod, bow, [srod], [strength2]"
+                            // Same as above, but shitty Low% fight
+                            //"bombs, trod, [srod], [strength2]"
+                        ],
+                        "item_count": 0
+                    }
+                ]
+            },
+
+            // Lorule Castle
+            {
+                "name": "Lorule Castle",
+                "short_name": "Lorule Castle",
+                "color": "#4800ff",
+                "access_rules": [
+                    "irene, osfala, rosso, impa, gulley, oren, seres" 
+                ],
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 256,
+                        "y": 216
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "1F right ledge",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F center",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F east room",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F east hidden path",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "2F west ledge",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "4F center",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "4F big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Bomb trial center",
+                        "access_rules": [
+                            "bombs"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Bomb trial behind rock",
+                        "access_rules": [
+                            "bombs"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Ball trial west",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Ball trial east",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Lamp trial chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Hookshot trial east",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Hookshot trial eyes",
+                        "item_count": 1
+                    }
+                ]
+            },
+
+            // Yuganon fight
+            {
+                "name": "Final showdown",
+                "short_name": "Yuganon",
+                "color": "#4800ff",
+                "access_rules": [
+                    "irene, osfala, rosso, impa, gulley, oren, seres" 
+                ],
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 256,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Zelda's gift",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "hosted_item": "triforce",
+                        "access_rules": [
+                            "bowlight"
+                        ],
+                        "item_count": 0
+                    }
+                ]
+            }
+        ]
+    }
+
+    
+]

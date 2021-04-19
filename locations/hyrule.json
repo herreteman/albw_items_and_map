@@ -174,7 +174,7 @@
                 "short_name": "Shop",
                 "access_rules": [
                     "[strength1]", // Change to access Mountain
-                    "merge, smoothgem", // Maybe only merge?
+                    "merge, smoothgem",
                     "flippers" // 3rd trigger, HoG 
                 ],
                 "map_locations": [
@@ -300,8 +300,12 @@
                 "sections": [
                   {
                     "name": "Get 100",
-                    "access_rules": [ 
-                    ],
+                    "access_rules": [
+                      // You need to buy anything from Ravio's Shop
+                      "[strength1]", 
+                      "merge, smoothgem",
+                      "flippers" 
+                  ],
                     "item_count": 1
                   }
                 ]

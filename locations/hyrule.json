@@ -719,7 +719,9 @@
                     "name": "Letter in a bottle",
                     "hosted_item": "letter",
                     "access_rules": [ 
-                        "flippers" 
+                        "flippers",
+                        "frod, [flippers]",
+                        "bombs, [flippers]"
                     ],
                     "item_count": 0
                   }
@@ -977,7 +979,7 @@
                   {
                     "name": "Ledge chest",
                     "access_rules": [
-                        "merge"  
+                        "[merge]"  
                     ],
                     "item_count": 1
                   }
@@ -998,7 +1000,7 @@
                   {
                     "name": "Peg chest",
                     "access_rules": [
-                        "merge, hammer"  
+                        "[merge], hammer"  
                     ],
                     "item_count": 1
                   }
@@ -1019,7 +1021,7 @@
                   {
                     "name": "Chest at the top",
                     "access_rules": [
-                        "merge"  
+                        "[merge]"  
                     ],
                     "item_count": 1
                   }
@@ -1219,7 +1221,7 @@
                     "item_count": 1
                   }
                 ]
-            },
+            }
         ]
     }
 ]

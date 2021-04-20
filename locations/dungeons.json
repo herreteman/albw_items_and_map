@@ -514,7 +514,7 @@
                 "short_name": "Ice",
                 "color": "#ffffff",
                 "access_rules": [ 
-                    "strength1, hookshot, frod"
+                    "hookshot, frod, [strength1]"
                 ],
                 "map_locations": [
                     {
@@ -599,7 +599,8 @@
                     "flippers, irod",
 
                     //Fake Flippers
-                    "trod, irod, frod, [flippers]"
+                    "trod, irod, frod, [flippers]",
+                    "trod, irod, nicebombs, [flippers]"
                 ],
                 "map_locations": [
                     {

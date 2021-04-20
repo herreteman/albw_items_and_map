@@ -304,7 +304,6 @@
                           {
                             "name": "Melt them!",
                             "access_rules": [
-                                "frod" 
                             ],
                             "item_count": 1
                           }

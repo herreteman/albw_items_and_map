@@ -492,7 +492,7 @@
                   {
                     "name": "Enter through Lorule",
                     "access_rules": [ 
-                        "merge, ms" 
+                        "yuga" 
                     ],
                     "item_count": 1
                   }

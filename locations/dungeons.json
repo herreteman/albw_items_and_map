@@ -287,6 +287,9 @@
         "sections": [
             {
                 "name": "1F north window",
+                "access_rules": [ 
+                    "merge"
+                ],
                 "item_count": 1
             },
 
@@ -307,6 +310,9 @@
 
             {
                 "name": "7F east chest",
+                "access_rules": [ 
+                    "merge"
+                ],
                 "item_count": 1
             },
 

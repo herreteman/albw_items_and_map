@@ -357,11 +357,36 @@
             }
         ]
     },
+
+    // CT
+    {
+        "name": "Hyrule Castle",
+        "short_name": "Castle",
+        "color": "#ff0000",
+        "access_rules": [ 
+            "ms, merge"
+        ],
+        "map_locations": [
+            {
+                "map": "hyrule",
+                "x": 256,
+                "y": 199
+            }
+        ],
+        "sections": [
+            {
+                "name": "Beat Yuga",
+                "hosted_item": "yuga",
+                "item_count": 0
+            }
+        ]
+    },
+
     
     {
         "name": "Lorule",
         "access_rules": [
-            "ms, merge"
+            "yuga"
         ],
         "children": [
             

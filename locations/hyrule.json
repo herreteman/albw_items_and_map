@@ -1116,7 +1116,7 @@
 
                         // Nice Bombs/IRod
                         "strength2, [flippers], [hookshot], [boomerang], nicebombs",
-                        "strength2, [flippers], [hookshot], [boomerang], bombs, niceirod" // TODO: find a way for this one to make sense
+                        "strength2, [flippers], [hookshot], [boomerang], bombs, niceirod", // TODO: find a way for this one to make sense
 
                         // Enter without Titan's
                         "flippers, hookshot, boomerang, irod, [strength2]"

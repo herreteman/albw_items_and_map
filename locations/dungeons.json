@@ -295,16 +295,28 @@
 
             {
                 "name": "1F center",
+                "access_rules": [ 
+                    "merge",
+                    "bombs, sword1, [merge]"
+                ],
                 "item_count": 1
             },
 
             {
                 "name": "5F red/blue room",
+                "access_rules": [ 
+                    "merge",
+                    "trod, bombs, sword1, [merge]"
+                ],
                 "item_count": 1
             },
 
             {
                 "name": "6F right platform",
+                "access_rules": [ 
+                    "merge",
+                    "trod, bombs, sword1, [merge]"
+                ],
                 "item_count": 1
             },
 
@@ -318,17 +330,29 @@
 
             {
                 "name": "8F fairy room under elevator",
+                "access_rules": [ 
+                    "merge",
+                    "trod, bombs, sword1, [merge]"
+                ],
                 "item_count": 1
             },
 
             {
                 "name": "Big chest",
+                "access_rules": [ 
+                    "merge",
+                    "trod, bombs, sword1, [merge]"
+                ],
                 "item_count": 1
             },
 
             {
                 "name": "Moldorm reward",
                 "hosted_item": "toh",
+                "access_rules": [ 
+                    "merge",
+                    "trod, bombs, sword1, [merge]"
+                ],
                 "item_count": 0
             }
         ]

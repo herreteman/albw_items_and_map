@@ -275,7 +275,7 @@
         "short_name": "Hera",
         "color": "#ff0000",
         "access_rules": [ 
-            "strength1, [merge], hammer"
+            "[strength1], [merge], hammer"
         ],
         "map_locations": [
             {

@@ -23,6 +23,14 @@
     "codes": "toh,hera,redpendant"
   },
 
+  // Hyrule Castle Tower
+  {
+    "name": "Hyrule Castle Tower",
+    "type": "toggle",
+    "img": "images/sprite/yuga.png",
+    "codes": "yuga,lorule"
+  },
+
   // Dark Palace
   {
     "name": "Dark Palace",

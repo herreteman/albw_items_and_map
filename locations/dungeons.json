@@ -44,6 +44,10 @@
             {
                 "name": "1F West Popos room",
                 "access_rules": [ 
+                    "sword1",
+                    "bow",
+                    "hammer",
+                    "frod"
                 ],
                 "item_count": 1
             },
@@ -76,7 +80,7 @@
 
             {
                 "name": "2F East kill Popos",
-                "access_rules": [ 
+                "access_rules": [
                 ],
                 "item_count": 1
             },
@@ -98,8 +102,10 @@
                 "access_rules": [ 
                     //TODO: Change these to a general projectile function 
                     "bow",
-                    "hookshot",
-                    "boomerang",
+                    "hookshot, sword1",
+                    "hookshot, hammer",
+                    "boomerang, sword1",
+                    "boomerang, hammer",
                     "bombs"
                 ],
                 "item_count": 1
@@ -109,8 +115,10 @@
                 "name": "Yuga reward",
                 "access_rules": [ 
                     "bow",
-                    "hookshot",
-                    "boomerang",
+                    "hookshot, sword1",
+                    "hookshot, hammer",
+                    "boomerang, sword1",
+                    "boomerang, hammer",
                     "bombs"
                 ],
                 "item_count": 1
@@ -120,8 +128,10 @@
                 "name": "Post-Yuga east chest",
                 "access_rules": [ 
                     "bow, merge",
-                    "hookshot, merge",
-                    "boomerang, merge",
+                    "hookshot, sword1, merge",
+                    "hookshot, hammer, merge",
+                    "boomerang, sword1, merge",
+                    "boomerang, hammer, merge",
                     "bombs, merge"
                 ],
                 "item_count": 1
@@ -131,8 +141,10 @@
                 "name": "SW outside chest",
                 "access_rules": [ 
                     "bow, merge",
-                    "hookshot, merge",
-                    "boomerang, merge",
+                    "hookshot, sword1, merge",
+                    "hookshot, hammer, merge",
+                    "boomerang, sword1, merge",
+                    "boomerang, hammer, merge",
                     "bombs, merge"
                 ],
                 "item_count": 1
@@ -143,8 +155,10 @@
                 "hosted_item": "ep",
                 "access_rules": [ 
                     "bow, [merge]",
-                    "hookshot, [merge]",
-                    "boomerang, [merge]",
+                    "hookshot, sword1, [merge]",
+                    "hookshot, hammer, [merge]",
+                    "boomerang, sword1, [merge]",
+                    "boomerang, hammer, [merge]",
                     "bombs, [merge]"
                 ],
                 "item_count": 0

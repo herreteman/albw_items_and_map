@@ -2,7 +2,7 @@
     "tracker_default": {
         "type": "container",
         "height": 430,
-        "width": 340,
+        "width": 390,
         "background": "#443C3C",
         "content": {
             "type": "array",
@@ -35,8 +35,8 @@
                                     "item_margin": "1,2",
                                     "margin": "10",
                                     "rows": [
-                                        [ "armor1", "sword1", "shield", "strength1", "bracelet", "boots" ],
-                                        [ "bell", "pouch", "scroll", "ore", "maiamai", "flippers" ]                 
+                                        [ "armor1", "sword1", "shield", "strength1", "bracelet", "boots", "flippers" ],
+                                        [ "bell", "pouch", "scroll", "ore", "maiamai", "smoothgem", "letter" ]                
                                     ]
                                 } 
                             ]

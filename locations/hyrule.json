@@ -251,7 +251,8 @@
                   {
                     "name": "Rosso's Gift",
                     "access_rules": [
-                        "ep, [merge]" 
+                        "ep, [merge]",
+                        "yuga" 
                     ],
                     "item_count": 1
                   },

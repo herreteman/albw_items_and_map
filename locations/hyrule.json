@@ -18,7 +18,7 @@
                   {
                     "name": "Trade 2 ores",
                     "access_rules": [ 
-                        "ms, ore:2" 
+                        "yuga, ore:2" 
                     ],
                     "item_count": 1
                   }

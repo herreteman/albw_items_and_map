@@ -459,6 +459,10 @@
                     {
                         "name": "Gemasaur reward",
                         "hosted_item": "gulley",
+                        "access_rules": [
+                            "lamp",
+                            "frod"   
+                        ],
                         "item_count": 0
                     }
                 ]

@@ -422,7 +422,28 @@
                     "item_count": 1
                   }
                 ]
-            }
+            },
+
+            {
+              "name": "Sanctuary ledge",
+              "short_name": "Sanctuary",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 291,
+                  "y": 146
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Heart Piece",
+                  "access_rules": [ 
+                    "yuga, bombs"
+                  ],
+                  "item_count": 1
+                }
+              ]
+          },
         ]
     },
 
@@ -625,7 +646,14 @@
                 ],
                 "sections": [
                   {
-                    "name": "Side entrance chest",
+                    "name": "Lower entrance chest",
+                    "access_rules": [  
+                    ],
+                    "item_count": 1
+                  },
+
+                  {
+                    "name": "Heart piece",
                     "access_rules": [  
                     ],
                     "item_count": 1

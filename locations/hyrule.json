@@ -26,6 +26,51 @@
             },
 
             {
+              "name": "Behind Blacksmith",
+              "short_name": "Behind Blacksmith",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 165,
+                  "y": 247
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Heart Piece",
+                  "access_rules": [ 
+                      "{}",
+                      "merge" 
+                  ],
+                  "item_count": 1
+                }
+              ]
+            },
+
+            {
+            "name": "Blacksmith cave",
+            "short_name": "Blacksmith cave",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "x": 168,
+                "y": 285
+              }
+            ],
+            "sections": [
+              {
+                "name": "Heart Piece",
+                "access_rules": [ 
+                    "strength2",
+                    "frod, [stength2]", 
+                    "nicebombs, [stength2]"
+                ],
+                "item_count": 1
+              }
+            ]
+            },
+
+            {
                 "name": "Hyrule Castle",
                 "short_name": "Castle",
                 "map_locations": [
@@ -67,6 +112,27 @@
                     "item_count": 1
                   }
                 ]
+            },
+
+            {
+              "name": "Hyrule Castle Area",
+              "short_name": "Castle Area",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 302,
+                  "y": 216
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Rocks HP",
+                  "access_rules": [ 
+                      "strength1"
+                  ],
+                  "item_count": 1
+                }
+              ]
             },
 
             {
@@ -373,6 +439,52 @@
                     "item_count": 1
                   }
                 ]
+            },
+
+            // EP checks that don't require opening the thing
+            {
+              "name": "EP SE sub-area",
+              "color": "#80ff00",
+              "short_name": "EP SE",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 488,
+                  "y": 363
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Pegs HP",
+                  "access_rules": [
+                      "hammer"
+                  ],
+                  "item_count": 1
+                }
+              ]
+            },
+
+            {
+              "name": "EP blocked cave",
+              "color": "#80ff00",
+              "short_name": "EP cave",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 481,
+                  "y": 237
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Heart Piece",
+                  "access_rules": [
+                    "bombs, merge",
+                    "bombs, strength1"
+                  ],
+                  "item_count": 1
+                }
+              ]
             }
         ]
     },
@@ -420,13 +532,21 @@
                         "frod" 
                     ],
                     "item_count": 1
+                  },
+                  {
+                    "name": "Ledge HP",
+                    "access_rules": [ 
+                        "lamp",
+                        "frod" 
+                    ],
+                    "item_count": 1
                   }
                 ]
             },
 
             {
               "name": "Sanctuary ledge",
-              "short_name": "Sanctuary",
+              "short_name": "Sanctuary ledge",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -443,7 +563,7 @@
                   "item_count": 1
                 }
               ]
-          },
+            }
         ]
     },
 
@@ -1058,6 +1178,55 @@
             },
 
             {
+              "name": "Near Hera",
+              "short_name": "Near Hera",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 253,
+                  "y": 25
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Middle lower cave HP",
+                  "access_rules": [
+                      "[merge]"  
+                  ],
+                  "item_count": 1
+                }
+              ]
+            },
+
+            {
+              "name": "Floating island",
+              "short_name": "Floating island",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 407,
+                  "y": 25
+                },
+                {
+                  "map": "lorule",
+                  "x": 407,
+                  "y": 25
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Portal HP",
+                  "access_rules": [
+                    "{hookshot, merge}",
+                    "hookshot, merge, trod, lorule"  
+                  ],
+                  "capture_item": true,
+                  "item_count": 1
+                }
+              ]
+            },
+
+            {
                 "name": "Hookshot Treasure Dungeon",
                 "short_name": "Hookshot Dungeon",
                 "map_locations": [
@@ -1076,7 +1245,28 @@
                     "item_count": 1
                   }
                 ]
-            }
+            },
+
+            {
+              "name": "Death Mountain lava cave",
+              "short_name": "Lava cave",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 430,
+                  "y": 42
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Mole platforming HP",
+                  "access_rules": [
+                      "merge, hookshot, hammer"  
+                  ],
+                  "item_count": 1
+                }
+              ]
+          },
         ]
     },
 
@@ -1126,6 +1316,28 @@
                   }
                 ]
             },
+
+            {
+              "name": "SE cave exit",
+              "short_name": "SE cave",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 285,
+                  "y": 447
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Heart Piece",
+                  "access_rules": [
+                    "{}",
+                    "bombs"  
+                  ],
+                  "item_count": 1
+                }
+              ]
+          },
 
             {
                 "name": "Flippers Treasure Dungeon",
@@ -1187,6 +1399,30 @@
             },
 
             {
+              "name": "Waterfall cave",
+              "short_name": "Waterfall cave",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 463,
+                  "y": 140
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Heart Piece",
+                  "access_rules": [ 
+                    "flippers",
+                    "frod, [flippers]",
+                    "nicebombs, [flippers]"
+                  ],
+                  "item_count": 1
+                }
+              ]
+            },
+
+
+            {
                 "name": "Bloated Oren",
                 "short_name": "Oren",
                 "map_locations": [
@@ -1234,6 +1470,27 @@
                   }
                 ]
             },
+
+            {
+              "name": "North Lost Woods",
+              "short_name": "Lost Woods",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 80,
+                  "y": 64
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Merge HP",
+                  "access_rules": [
+                      "merge"  
+                  ],
+                  "item_count": 1
+                }
+              ]
+          },
 
             {
                 "name": "The Pedestal",

@@ -70,7 +70,27 @@
                             "item_count": 1
                           }
                         ]
-                    }
+                    },
+
+                    {
+                      "name": "Dark Maze",
+                      "short_name": "Dark Maze",
+                      "map_locations": [
+                        {
+                          "map": "lorule",
+                          "x": 452,
+                          "y": 219
+                        }
+                      ],
+                      "sections": [
+                        {
+                          "name": "Heart Piece",
+                          "access_rules": [ 
+                          ],
+                          "item_count": 1
+                        }
+                      ]
+                  }
                 ]
             },
 
@@ -213,10 +233,10 @@
                         ],
                         "sections": [
                           {
-                            "name": "Chests",
+                            "name": "Chests + HP",
                             "access_rules": [ 
                             ],
-                            "item_count": 2
+                            "item_count": 3
                           }
                         ]
                     },
@@ -283,6 +303,54 @@
                         ]
                     }
                 ]
+            },
+
+            // Skull Woods Area
+            {
+              "name": "Skull Woods Area",
+              "color": "#d3de00",
+              "children": [
+                {
+                    "name": "South Portal building",
+                    "short_name": "South Portal",
+                    "map_locations": [
+                      {
+                        "map": "lorule",
+                        "x": 86,
+                        "y": 220
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Heart Piece",
+                        "access_rules": [
+                          "merge"
+                        ],
+                      "item_count": 1
+                    }
+                  ]
+                },
+
+                {
+                  "name": "House ruins",
+                  "short_name": "House ruins",
+                  "map_locations": [
+                    {
+                      "map": "lorule",
+                      "x": 163,
+                      "y": 40
+                    }
+                  ],
+                  "sections": [
+                    {
+                      "name": "Cucco flight HP",
+                      "access_rules": [
+                      ],
+                    "item_count": 1
+                  }
+                ]
+              }
+              ]
             },
 
             // Dark Death Mountain
@@ -406,6 +474,10 @@
                                 "item_count": 1
                               },
                               {
+                                "name": "Ledge key",
+                                "item_count": 1
+                              },
+                              {
                                 "name": "Big chest",
                                 "item_count": 1
                               }
@@ -456,7 +528,34 @@
                             "item_count": 1
                           }
                         ]
-                    }
+                    },
+
+                    {
+                      "name": "Desert NE portal ledge",
+                      "short_name": "Desert NE portal",
+                      "map_locations": [
+                        {
+                          "map": "lorule",
+                          "x": 87,
+                          "y": 395
+                        },
+                        {
+                          "map": "hyrule",
+                          "x": 87,
+                          "y": 395
+                        }
+                      ],
+                      "sections": [
+                        {
+                          "name": "Heart Piece",
+                          "access_rules": [
+                              "srod",
+                              "frod, boots, [srod]" 
+                          ],
+                          "item_count": 1
+                        }
+                      ]
+                  },
                 ]
             },
 
@@ -481,6 +580,33 @@
                             "item_count": 1
                           }
                         ]
+                    },
+
+                    {
+                      "name": "TR northwest exit",
+                      "short_name": "TR NW exit",
+                      "map_locations": [
+                        {
+                          "map": "lorule",
+                          "x": 377,
+                          "y": 413
+                        }
+                      ],
+                      "sections": [
+                        {
+                          "name": "Heart Piece",
+                          "capture_item": true,
+                          "access_rules": [
+                            "{}",
+                            "flippers, irod",
+
+                            //Fake Flippers
+                            "trod, irod, frod, [flippers]",
+                            "trod, irod, nicebombs, [flippers]"
+                          ],
+                          "item_count": 1
+                        }
+                      ]
                     }
                 ]
             }

@@ -548,9 +548,11 @@
                       "sections": [
                         {
                           "name": "Heart Piece",
+                          "capture_item": true,
                           "access_rules": [
-                              "srod",
-                              "frod, boots, [srod]" 
+                            "{}",
+                            "srod",
+                            "frod, boots, [srod]" 
                           ],
                           "item_count": 1
                         }

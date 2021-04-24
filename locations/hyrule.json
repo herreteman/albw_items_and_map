@@ -38,6 +38,7 @@
               "sections": [
                 {
                   "name": "Heart Piece",
+                  "capture_item": true,
                   "access_rules": [ 
                       "{}",
                       "merge" 
@@ -127,8 +128,10 @@
               "sections": [
                 {
                   "name": "Rocks HP",
+                  "capture_item": true,
                   "access_rules": [ 
-                      "strength1"
+                    "{}",  
+                    "strength1"
                   ],
                   "item_count": 1
                 }
@@ -456,8 +459,10 @@
               "sections": [
                 {
                   "name": "Pegs HP",
+                  "capture_item": true,
                   "access_rules": [
-                      "hammer"
+                    "{}",  
+                    "hammer"
                   ],
                   "item_count": 1
                 }
@@ -478,7 +483,9 @@
               "sections": [
                 {
                   "name": "Heart Piece",
+                  "capture_item": true,
                   "access_rules": [
+                    "{}", 
                     "bombs, merge",
                     "bombs, strength1"
                   ],
@@ -535,9 +542,12 @@
                   },
                   {
                     "name": "Ledge HP",
+                    "capture_item": true,
                     "access_rules": [ 
-                        "lamp",
-                        "frod" 
+                      "{lamp}",
+                      "{frod}",
+                      "lamp, merge",
+                      "frod, merge" 
                     ],
                     "item_count": 1
                   }
@@ -1330,6 +1340,7 @@
               "sections": [
                 {
                   "name": "Heart Piece",
+                  "capture_item": true,
                   "access_rules": [
                     "{}",
                     "bombs"  
@@ -1337,7 +1348,7 @@
                   "item_count": 1
                 }
               ]
-          },
+            },
 
             {
                 "name": "Flippers Treasure Dungeon",
@@ -1484,13 +1495,15 @@
               "sections": [
                 {
                   "name": "Merge HP",
+                  "capture_item": true,
                   "access_rules": [
-                      "merge"  
+                    "{}",  
+                    "merge"  
                   ],
                   "item_count": 1
                 }
               ]
-          },
+            },
 
             {
                 "name": "The Pedestal",

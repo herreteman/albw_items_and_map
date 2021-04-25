@@ -486,8 +486,7 @@
                   "capture_item": true,
                   "access_rules": [
                     "{}", 
-                    "bombs, merge",
-                    "bombs, strength1"
+                    "bombs, merge"
                   ],
                   "item_count": 1
                 }

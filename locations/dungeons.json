@@ -59,14 +59,20 @@
                     "sword1",
                     "bow",
                     "hammer",
-                    "frod"
+                    "frod",
+                    "bombs"
                 ],
                 "item_count": 1
             },
 
             {
                 "name": "Popos room secret exit",
-                "access_rules": [ 
+                "access_rules": [
+                    "sword1",
+                    "bow",
+                    "hammer",
+                    "frod",
+                    "bombs" 
                 ],
                 "item_count": 1
             },

@@ -35,7 +35,7 @@
   {
     "name": "Dark Palace",
     "type": "toggle",
-    "img": "images/sprite/sage_gulley.png",
+    "img": "images/sprite/sage_gulley_text.png",
     "codes": "pod,dark,gulley"
   },
 
@@ -43,7 +43,7 @@
   {
     "name": "Turtle Rock",
     "type": "toggle",
-    "img": "images/sprite/sage_impa.png",
+    "img": "images/sprite/sage_impa_text.png",
     "codes": "tr,turtle,impa"
   },
 
@@ -51,7 +51,7 @@
   {
     "name": "Desert Palace",
     "type": "toggle",
-    "img": "images/sprite/sage_irene.png",
+    "img": "images/sprite/sage_irene_text.png",
     "codes": "dp,desert,irene,bestgirl"
   },
 
@@ -59,7 +59,7 @@
   {
     "name": "Swamp Palace",
     "type": "toggle",
-    "img": "images/sprite/sage_oren.png",
+    "img": "images/sprite/sage_oren_text.png",
     "codes": "sp,swamp,oren"
   },
 
@@ -67,7 +67,7 @@
   {
     "name": "Thieves' Hideout",
     "type": "toggle",
-    "img": "images/sprite/sage_osfala.png",
+    "img": "images/sprite/sage_osfala_text.png",
     "codes": "th,thieves,osfala"
   },
 
@@ -75,7 +75,7 @@
   {
     "name": "Ice Palace",
     "type": "toggle",
-    "img": "images/sprite/sage_rosso.png",
+    "img": "images/sprite/sage_rosso_text.png",
     "codes": "ip,ice,rosso"
   },
 
@@ -83,7 +83,7 @@
   {
     "name": "Skull Woods",
     "type": "toggle",
-    "img": "images/sprite/sage_seres.png",
+    "img": "images/sprite/sage_seres_text.png",
     "codes": "sw,skull,seres"
   }
 ]

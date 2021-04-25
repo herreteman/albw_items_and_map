@@ -50,12 +50,12 @@
                 "item_margin": "1,2",
                 "rows": [
                     [ "dark" ],
-                    [ "swamp" ],
-                    [ "ice" ],
-                    [ "turtle" ], 
                     [ "desert" ],
+                    [ "ice" ],
+                    [ "skull" ], 
+                    [ "swamp" ],
                     [ "thieves" ],
-                    [ "skull" ]                     
+                    [ "turtle" ]                     
                 ]
             }            
         ]

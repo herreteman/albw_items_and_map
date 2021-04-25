@@ -56,7 +56,7 @@
                             "item_size": "40",
                             "item_margin": "1,2",
                             "rows": [
-                                [ "dark", "swamp", "ice", "turtle", "desert", "thieves", "skull" ]                    
+                                [ "dark", "desert", "ice", "skull", "swamp", "thieves", "turtle" ]                     
                             ]
                         }            
                     ]

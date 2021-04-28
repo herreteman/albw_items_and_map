@@ -1162,14 +1162,6 @@
                     },
 
                     {
-                        "name": "2F big chest",
-                        "access_rules": [
-                            "strength2"
-                        ],
-                        "item_count": 1
-                    },
-
-                    {
                         "name": "2F near big chest",
                         "access_rules": [
                             "strength2"

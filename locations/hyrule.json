@@ -620,6 +620,14 @@
                         "bottle" 
                     ],
                     "item_count": 1
+                  },
+
+                  {
+                    "name": "Gold Bee reward",
+                    "access_rules": [ 
+                        "bottle, goldbee" 
+                    ],
+                    "item_count": 1
                   }
                 ]
             },

@@ -516,7 +516,7 @@
                 "short_name": "Dark",
                 "color": "#000008",
                 "access_rules": [ 
-                    "bombs"
+                    "bombs, [lamp]"
                 ],
                 "map_locations": [
                     {

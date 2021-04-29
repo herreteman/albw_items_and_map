@@ -349,7 +349,29 @@
                     "item_count": 1
                   }
                 ]
-              }
+                },
+
+                {
+                  "name": "North Skull Woods",
+                  "short_name": "North SW",
+                  "map_locations": [
+                    {
+                      "map": "lorule",
+                      "x": 95,
+                      "y": 16
+                    }
+                  ],
+                  "sections": [
+                    {
+                      "name": "Buy a gold bee (888 rupees)",
+                      "hosted_item": "goldbee",
+                      "access_rules": [
+                        "bottle"
+                      ],
+                    "item_count": 0
+                  }
+                ]
+                },
               ]
             },
 
@@ -376,6 +398,26 @@
                             "item_count": 1
                           }
                         ]
+                    },
+
+                    {
+                      "name": "Treacherous Tower",
+                      "short_name": "T. Tower",
+                      "map_locations": [
+                        {
+                          "map": "lorule",
+                          "x": 286,
+                          "y": 16
+                        }
+                      ],
+                      "sections": [
+                        {
+                          "name": "Intermediate reward",
+                          "access_rules": [
+                          ],
+                          "item_count": 1
+                        }
+                      ]
                     },
 
                     {
@@ -451,7 +493,7 @@
                         "name": "Grave under rock",
                         "short_name": "Grave under rock",
                         "access_rules": [
-                            "strength2"
+                            "strength2, [lamp]"
                         ],
                         "map_locations": [
                           {

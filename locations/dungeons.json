@@ -97,7 +97,12 @@
 
             {
                 "name": "2F Ball room",
-                "access_rules": [ 
+                "access_rules": [
+                    "sword1",
+                    "bow",
+                    "hammer",
+                    "frod",
+                    "bombs" 
                 ],
                 "item_count": 1
             },
@@ -105,6 +110,11 @@
             {
                 "name": "2F East kill Popos",
                 "access_rules": [
+                    "sword1",
+                    "bow",
+                    "hammer",
+                    "frod",
+                    "bombs"
                 ],
                 "item_count": 1
             },
@@ -114,8 +124,8 @@
                 "access_rules": [ 
                     //TODO: Change these to a general projectile function 
                     "bow",
-                    "hookshot",
-                    "boomerang",
+                    "hookshot, sword1",
+                    "boomerang, sword1",
                     "bombs",
 
                     // Sword beams

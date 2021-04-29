@@ -593,12 +593,11 @@
                 ],
                 "sections": [
                   {
-                    "name": "Get Premium Milk",
-                    "hosted_item": "milk_quest",
+                    "name": "Turn in letter",
                     "access_rules": [ 
                         "letter" 
                     ],
-                    "item_count": 0
+                    "item_count": 1
                   }
                 ]
             },
@@ -1101,7 +1100,7 @@
                   {
                     "name": "Deliver Premium Milk",
                     "access_rules": [
-                        "merge, hookshot, milk_quest",
+                        //"merge, hookshot, milk_quest",
                         "merge, hookshot, premiummilk" 
                     ],
                     "item_count": 1

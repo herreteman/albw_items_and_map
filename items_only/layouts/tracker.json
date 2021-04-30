@@ -1,7 +1,7 @@
 {
     "tracker_default": {
         "type": "container",
-        "height": 430,
+        "height": 480,
         "width": 390,
         "background": "#443C3C",
         "content": {
@@ -35,8 +35,9 @@
                                     "item_margin": "1,2",
                                     "margin": "10",
                                     "rows": [
-                                        [ "armor1", "sword1", "shield", "strength1", "bracelet", "boots", "flippers" ],
-                                        [ "bell", "pouch", "scroll", "ore", "maiamai", "smoothgem", "letter" ]                
+                                        [ "armor1", "sword1", "shield", "strength1", "bracelet", "flippers" ],
+                                        [ "bell", "pouch", "scroll", "maiamai", "beebadge", "boots" ],
+                                        [ "ore", "smoothgem", "letter", "premiummilk", "goldbee" ]               
                                     ]
                                 } 
                             ]
@@ -44,7 +45,7 @@
                         {
                             "type": "itemgrid",
                             "h_alignment": "center",
-                            "item_size": "40",
+                            "item_size": "45",
                             "item_margin": "1,2",
                             "rows": [
                                 [ "eastern", "gales", "hera", "yuga" ]                
@@ -53,7 +54,7 @@
                         {
                             "type": "itemgrid",
                             "h_alignment": "center",
-                            "item_size": "40",
+                            "item_size": "45",
                             "item_margin": "1,2",
                             "rows": [
                                 [ "dark", "swamp", "ice", "turtle", "desert", "thieves", "skull" ]                    

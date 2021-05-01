@@ -257,15 +257,16 @@
   },
 
   // Bottle with letter
-  // Use this if/when the letter and milk become separate fetch quests
-  /*{
+  {
     "name": "Letter in a Bottle",
     "type": "toggle",
     "img": "images/sprite/bottle_letter.png",
     "codes": "bottle_letter,letter"
-  },*/
+  },
 
   // Bottle quest
+  // Old behavior
+  /*
   {
     "name": "Letter in a Bottle",
     "type": "progressive",
@@ -280,7 +281,7 @@
         "codes": "milk_quest"
       }
     ]
-  },
+  },*/
 
   // Bottle with bee
   {

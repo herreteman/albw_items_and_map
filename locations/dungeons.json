@@ -11,7 +11,13 @@
             "bow",
             "hookshot",
             "boomerang",
-            "bombs"
+            "bombs",
+
+            // Sword beams
+            "sword2, [bow]",
+            "sword2, [hookshot]",
+            "sword2, [boomerang]",
+            "sword2, [bombs]"
         ],
         "map_locations": [
             {
@@ -36,7 +42,13 @@
                     "bow",
                     "hookshot",
                     "boomerang",
-                    "bombs"
+                    "bombs",
+
+                    // Sword beams
+                    "sword2, [bow]",
+                    "sword2, [hookshot]",
+                    "sword2, [boomerang]",
+                    "sword2, [bombs]"
                 ],
                 "item_count": 1
             },
@@ -47,14 +59,20 @@
                     "sword1",
                     "bow",
                     "hammer",
-                    "frod"
+                    "frod",
+                    "bombs"
                 ],
                 "item_count": 1
             },
 
             {
                 "name": "Popos room secret exit",
-                "access_rules": [ 
+                "access_rules": [
+                    "sword1",
+                    "bow",
+                    "hammer",
+                    "frod",
+                    "bombs" 
                 ],
                 "item_count": 1
             },
@@ -66,14 +84,25 @@
                     "bow",
                     "hookshot",
                     "boomerang",
-                    "bombs"
+                    "bombs",
+
+                    // Sword beams
+                    "sword2, [bow]",
+                    "sword2, [hookshot]",
+                    "sword2, [boomerang]",
+                    "sword2, [bombs]"
                 ],
                 "item_count": 1
             },
 
             {
                 "name": "2F Ball room",
-                "access_rules": [ 
+                "access_rules": [
+                    "sword1",
+                    "bow",
+                    "hammer",
+                    "frod",
+                    "bombs" 
                 ],
                 "item_count": 1
             },
@@ -81,6 +110,11 @@
             {
                 "name": "2F East kill Popos",
                 "access_rules": [
+                    "sword1",
+                    "bow",
+                    "hammer",
+                    "frod",
+                    "bombs"
                 ],
                 "item_count": 1
             },
@@ -90,9 +124,15 @@
                 "access_rules": [ 
                     //TODO: Change these to a general projectile function 
                     "bow",
-                    "hookshot",
-                    "boomerang",
-                    "bombs"
+                    "hookshot, sword1",
+                    "boomerang, sword1",
+                    "bombs",
+
+                    // Sword beams
+                    "sword2, [bow]",
+                    "sword2, [hookshot]",
+                    "sword2, [boomerang]",
+                    "sword2, [bombs]"
                 ],
                 "item_count": 1
             },
@@ -119,7 +159,30 @@
                     "hookshot, hammer",
                     "boomerang, sword1",
                     "boomerang, hammer",
-                    "bombs"
+                    "bombs",
+
+                    // Sword beams
+                    "sword2, [bow]",
+                    "sword2, [hookshot]",
+                    "sword2, [bombs]"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Heart Container",
+                "access_rules": [ 
+                    "bow",
+                    "hookshot, sword1",
+                    "hookshot, hammer",
+                    "boomerang, sword1",
+                    "boomerang, hammer",
+                    "bombs",
+                    
+                    // Sword beams
+                    "sword2, [bow]",
+                    "sword2, [hookshot]",
+                    "sword2, [bombs]"
                 ],
                 "item_count": 1
             },
@@ -132,7 +195,12 @@
                     "hookshot, hammer, merge",
                     "boomerang, sword1, merge",
                     "boomerang, hammer, merge",
-                    "bombs, merge"
+                    "bombs, merge",
+
+                    // Sword beams
+                    "sword2, merge, [bow]",
+                    "sword2, merge, [hookshot]",
+                    "sword2, merge, [bombs]"
                 ],
                 "item_count": 1
             },
@@ -145,7 +213,12 @@
                     "hookshot, hammer, merge",
                     "boomerang, sword1, merge",
                     "boomerang, hammer, merge",
-                    "bombs, merge"
+                    "bombs, merge",
+
+                    // Sword beams
+                    "sword2, merge, [bow]",
+                    "sword2, merge, [hookshot]",
+                    "sword2, merge, [bombs]"
                 ],
                 "item_count": 1
             },
@@ -159,7 +232,12 @@
                     "hookshot, hammer, [merge]",
                     "boomerang, sword1, [merge]",
                     "boomerang, hammer, [merge]",
-                    "bombs, [merge]"
+                    "bombs, [merge]",
+                    
+                    // Sword beams
+                    "sword2, [merge], [bow]",
+                    "sword2, [merge], [hookshot]",
+                    "sword2, [merge], [bombs]"
                 ],
                 "item_count": 0
             }
@@ -232,6 +310,22 @@
             },
 
             {
+                "name": "2F ledge key",
+                "access_rules": [ 
+                    "merge"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "2F fire ring key",
+                "access_rules": [ 
+                    "merge"
+                ],
+                "item_count": 1
+            },
+
+            {
                 "name": "Big chest",
                 "access_rules": [ 
                     "merge"
@@ -250,6 +344,15 @@
 
             {
                 "name": "3F Rat room",
+                "access_rules": [ 
+                    "merge, [lamp]",
+                    "merge, [frod]"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Margomill HC",
                 "access_rules": [ 
                     "merge, [lamp]",
                     "merge, [frod]"
@@ -303,6 +406,15 @@
             },
 
             {
+                "name": "3F key",
+                "access_rules": [ 
+                    "merge",
+                    "bombs, sword1, [merge]"
+                ],
+                "item_count": 1
+            },
+
+            {
                 "name": "5F red/blue room",
                 "access_rules": [ 
                     "merge",
@@ -313,6 +425,15 @@
 
             {
                 "name": "6F right platform",
+                "access_rules": [ 
+                    "merge",
+                    "trod, bombs, sword1, [merge]"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "6F left platform",
                 "access_rules": [ 
                     "merge",
                     "trod, bombs, sword1, [merge]"
@@ -339,6 +460,15 @@
 
             {
                 "name": "Big chest",
+                "access_rules": [ 
+                    "merge",
+                    "trod, bombs, sword1, [merge]"
+                ],
+                "item_count": 1
+            },
+
+            {
+                "name": "Moldorm HC",
                 "access_rules": [ 
                     "merge",
                     "trod, bombs, sword1, [merge]"
@@ -396,7 +526,7 @@
                 "short_name": "Dark",
                 "color": "#000008",
                 "access_rules": [ 
-                    "bombs"
+                    "bombs, [lamp]"
                 ],
                 "map_locations": [
                     {
@@ -442,17 +572,32 @@
                     },
 
                     {
+                        "name": "B1F fall from center 1F",
+                        "item_count": 1
+                    },
+
+                    {
                         "name": "B1F maze",
                         "item_count": 1
                     },
 
                     {
-                        "name": "B1F invisible floor room",
+                        "name": "B1F invisible floor key",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F invisible floor chest",
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F bowling big chest",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Gemasaur HC",
                         "item_count": 1
                     },
 
@@ -495,12 +640,22 @@
                     },
 
                     {
+                        "name": "B1F east key",
+                        "item_count": 1
+                    },
+
+                    {
                         "name": "B1F rafts left",
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F rafts right",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F rafts key",
                         "item_count": 1
                     },
 
@@ -526,6 +681,11 @@
 
                     {
                         "name": "1F east",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Arrghus HC",
                         "item_count": 1
                     },
 
@@ -564,12 +724,22 @@
                     },
 
                     {
+                        "name": "B2F ice pillar key",
+                        "item_count": 1
+                    },
+
+                    {
                         "name": "B3F elevator chests",
                         "item_count": 2
                     },
 
                     {
                         "name": "B1F outdoors",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "B1F torches key",
                         "item_count": 1
                     },
 
@@ -612,6 +782,11 @@
                     },
 
                     {
+                        "name": "Dharkstare HC",
+                        "item_count": 1
+                    },
+
+                    {
                         "name": "Dharkstare reward",
                         "hosted_item": "rosso",
                         "item_count": 0
@@ -645,12 +820,22 @@
                     },
 
                     {
+                        "name": "1F NE ledge key",
+                        "item_count": 1
+                    },
+
+                    {
                         "name": "1F north chest",
                         "item_count": 1
                     },
 
                     {
                         "name": "1F SE teleporters",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "1F SW teleporters key",
                         "item_count": 1
                     },
 
@@ -670,12 +855,22 @@
                     },
 
                     {
+                        "name": "B1F NE room key",
+                        "item_count": 1
+                    },
+
+                    {
                         "name": "B1F kill east Wizzrobe",
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F kill all Wizzrobes",
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Grinexx HC",
                         "item_count": 1
                     },
 
@@ -750,6 +945,15 @@
                         "access_rules": [
                             "frod",
                             "lamp"  
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
+                        "name": "Knucklemaster HC",
+                        "access_rules": [
+                            "[frod]",
+                            "[lamp]"  
                         ],
                         "item_count": 1
                     },
@@ -860,14 +1064,18 @@
                     },
 
                     {
+                        "name": "Stalblind HC",
+                        "access_rules": [
+                            "flippers"
+                        ],
+                        "item_count": 1
+                    },
+
+                    {
                         "name": "Stalblind reward",
                         "hosted_item": "osfala",
                         "access_rules": [
-                            "flippers",
-                            
-                            // From statue room OoB
-                            "trod, bombs, [flippers]",
-                            "trod, irod, [flippers]"
+                            "flippers"
                         ],
                         "item_count": 0
                     }
@@ -964,14 +1172,6 @@
                     },
 
                     {
-                        "name": "2F big chest",
-                        "access_rules": [
-                            "strength2"
-                        ],
-                        "item_count": 1
-                    },
-
-                    {
                         "name": "2F near big chest",
                         "access_rules": [
                             "strength2"
@@ -1018,6 +1218,31 @@
                 ],
                 "sections": [
 
+                    {
+                        "name": "Zaganaga HC",
+                        "access_rules": [
+                            "srod, strength2",
+
+                            // Desert skip
+                            // Get to platform normally, frod boost, fight as normal
+                            "frod, srod, [strength2]", 
+                            // Get to platform w/ irod clip + trod, frod boost, skip fight
+                            "frod, irod, trod, boots, [srod], [strength2]",
+                            // Same as above, but Low% fight
+                            "frod, irod, trod, bow, [srod], [strength2]",
+                            // Same as above, but shitty Low% fight
+                            //"frod, irod, trod, [srod], [strength2]",
+                            
+                            // East screen bomb boost and skip
+                            "bombs, trod, boots, [srod], [strength2]",
+                            // Same as above, but Low% fight
+                            "bombs, trod, bow, [srod], [strength2]"
+                            // Same as above, but shitty Low% fight
+                            //"bombs, trod, [srod], [strength2]"
+                        ],
+                        "item_count": 1
+                    },
+                    
                     {
                         "name": "Zaganaga reward",
                         "hosted_item": "irene",

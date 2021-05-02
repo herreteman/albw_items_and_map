@@ -210,8 +210,8 @@
             },
 
             {
-                "name": "Ravio",
-                "short_name": "Ravio",
+                "name": "Ravio signs near EP",
+                "short_name": "EP Ravio signs",
                 "map_locations": [
                   {
                     "map": "hyrule",
@@ -230,7 +230,7 @@
                     "item_count": 0
                   },*/
                   {
-                    "name": "Free Item",
+                    "name": "Bow slot (Free)",
                     "access_rules": [
                     ],
                     "item_count": 1
@@ -271,11 +271,6 @@
                   },
                   {
                     "name": "Bombs slot (50)",
-                    "capture_item": true,
-                    "item_count": 1
-                  },
-                  {
-                    "name": "Bow slot (10)",
                     "capture_item": true,
                     "item_count": 1
                   },

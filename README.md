@@ -2,7 +2,7 @@
 
 Discord server and downloads for the ALBW randomizer: https://discord.gg/dmAJh2uY7M
 
-Up to date logic with randomizer version 0.1.3
+Up to date logic with randomizer version 0.2.0
 
 ## Includes
 * Items only mode

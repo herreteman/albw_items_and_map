@@ -336,8 +336,14 @@
             {
                 "name": "3F Bubble room",
                 "access_rules": [ 
-                    "merge, lamp",
-                    "merge, frod"
+                    "merge, lamp, [sword1]",
+                    "merge, frod, [sword1]",
+                    "merge, lamp, [hammer]",
+                    "merge, frod, [hammer]",
+                    "merge, lamp, [bombs]",
+                    "merge, frod, [bombs]",
+                    "merge, lamp, [bow]",
+                    "merge, frod, [bow]"
                 ],
                 "item_count": 1
             },
@@ -345,8 +351,14 @@
             {
                 "name": "3F Rat room",
                 "access_rules": [ 
-                    "merge, [lamp]",
-                    "merge, [frod]"
+                    "merge, [lamp], [sword1]",
+                    "merge, [frod], [sword1]",
+                    "merge, [lamp], [hammer]",
+                    "merge, [frod], [hammer]",
+                    "merge, [lamp], [bombs]",
+                    "merge, [frod], [bombs]",
+                    "merge, [lamp], [bow]",
+                    "merge, [frod], [bow]"
                 ],
                 "item_count": 1
             },
@@ -354,8 +366,14 @@
             {
                 "name": "Margomill HC",
                 "access_rules": [ 
-                    "merge, [lamp]",
-                    "merge, [frod]"
+                    "merge, [lamp], sword1",
+                    "merge, [frod], sword1",
+                    "merge, [lamp], hammer",
+                    "merge, [frod], hammer",
+                    "merge, [lamp], bombs",
+                    "merge, [frod], bombs",
+                    "merge, [lamp], bow",
+                    "merge, [frod], bow"
                 ],
                 "item_count": 1
             },

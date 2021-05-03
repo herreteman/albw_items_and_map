@@ -1385,8 +1385,7 @@
     {
         "name": "Zora's Domain",
         "color": "#0040ff",
-        "access_rules": [
-            "merge"  
+        "access_rules": [  
         ],
         "children": [
             {
@@ -1402,7 +1401,8 @@
                 "sections": [
                   {
                     "name": "Chest",
-                    "access_rules": [  
+                    "access_rules": [ 
+                      "merge" 
                     ],
                     "item_count": 1
                   }
@@ -1424,14 +1424,13 @@
                   "name": "Heart Piece",
                   "access_rules": [ 
                     "flippers",
-                    "frod, [flippers]",
-                    "nicebombs, [flippers]"
+                    "merge, frod, [flippers]",
+                    "merge, nicebombs, [flippers]"
                   ],
                   "item_count": 1
                 }
               ]
             },
-
 
             {
                 "name": "Bloated Oren",
@@ -1447,7 +1446,7 @@
                   {
                     "name": "Deliver Smooth Gem",
                     "access_rules": [
-                        "smoothgem"  
+                        "merge, smoothgem"  
                     ],
                     "item_count": 1
                   }

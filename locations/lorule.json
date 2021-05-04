@@ -596,8 +596,8 @@
                           "capture_item": true,
                           "access_rules": [
                             "{}",
-                            "srod",
-                            "frod, boots, [srod]" 
+                            "srod, bombs",
+                            "frod, boots, [srod], [bombs]" 
                           ],
                           "item_count": 1
                         }

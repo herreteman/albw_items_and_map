@@ -379,6 +379,9 @@
             {
                 "name": "Lorule Death Mountain",
                 "color": "#ffffff",
+                "access_rules": [
+                  "[strength1]"
+                ],
                 "children": [
                     {
                         "name": "Ice Gimos fight",

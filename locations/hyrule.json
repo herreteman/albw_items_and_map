@@ -1372,7 +1372,7 @@
                         "strength2, [flippers], [hookshot], [boomerang], bombs, niceirod", // TODO: find a way for this one to make sense
 
                         // Enter without Titan's
-                        "flippers, hookshot, [boomerang], irod, [strength2]"
+                        "hookshot, [boomerang], irod, [strength2], [flippers]"
                     ],
                     "item_count": 1
                   }

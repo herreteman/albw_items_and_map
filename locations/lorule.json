@@ -417,6 +417,7 @@
                         {
                           "name": "Intermediate reward",
                           "access_rules": [
+                            "[hammer]"
                           ],
                           "item_count": 1
                         }

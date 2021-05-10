@@ -1497,7 +1497,15 @@
                   "capture_item": true,
                   "access_rules": [
                     "{}",  
-                    "merge"  
+                    "merge",
+
+                    // Enemy clip, don't show if can't escape
+                    "bombs, hookshot, [merge]",
+                    "bombs, srod, [merge]",
+                    "bombs, boomerang, [merge]",
+                    "bell, hookshot, [merge]",
+                    "bell, srod, [merge]",
+                    "bell, boomerang, [merge]"
                   ],
                   "item_count": 1
                 }

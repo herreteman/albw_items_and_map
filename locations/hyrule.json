@@ -1474,7 +1474,15 @@
                   {
                     "name": "Chest",
                     "access_rules": [
-                        "strength2"  
+                        "strength2",
+                        
+                        // Enemy clip, don't show if can't escape
+                        "bombs, hookshot, [strength2]",
+                        "bombs, srod, [strength2]",
+                        "bombs, boomerang, [strength2]",
+                        "bell, hookshot, [strength2]",
+                        "bell, srod, [strength2]",
+                        "bell, boomerang, [strength2]"
                     ],
                     "item_count": 1
                   }

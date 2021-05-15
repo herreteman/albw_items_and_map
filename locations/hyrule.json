@@ -345,7 +345,12 @@
                   {
                     "name": "Chest",
                     "access_rules": [
-                        "hammer"
+                        "hammer",
+
+                        // Enemy clip
+                        "hookshot, [hammer]",
+                        "boomerang, [hammer]",
+                        "srod, [hammer]"
                     ],
                     "item_count": 1
                   }

@@ -125,7 +125,9 @@
                     //TODO: Change these to a general projectile function 
                     "bow",
                     "hookshot, sword1",
+                    "hookshot, hammer",
                     "boomerang, sword1",
+                    "boomerang, hammer",
                     "bombs",
 
                     // Sword beams

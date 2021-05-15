@@ -1123,7 +1123,12 @@
                     "name": "Chest behind boulders",
                     "access_rules": [
                         "merge, hammer",
-                        "merge, bombs"  
+                        "merge, bombs",
+                        
+                        // Mergeless access
+                        "frod, hammer, [merge]",
+                        "frod, bombs, [merge]",
+                        "nicebombs, [merge]"
                     ],
                     "item_count": 1
                   }

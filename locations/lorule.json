@@ -417,7 +417,8 @@
                         {
                           "name": "Intermediate reward",
                           "access_rules": [
-                            "[hammer]"
+                            "[hammer]",
+                            "[trod]"
                           ],
                           "item_count": 1
                         }

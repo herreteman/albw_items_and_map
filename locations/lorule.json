@@ -598,7 +598,7 @@
                           "access_rules": [
                             "{}",
                             "srod, bombs",
-                            "staminascroll, bombs, [srod]"
+                            "staminascroll, bombs, [srod]",
                             "frod, boots, [srod], [bombs]" 
                           ],
                           "item_count": 1

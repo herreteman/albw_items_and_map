@@ -912,7 +912,7 @@
                 "name": "Skull Woods",
                 "short_name": "Skull",
                 "color": "#d3de00",
-                "access_rules": [ 
+                "access_rules": [
                 ],
                 "map_locations": [
                     {
@@ -924,33 +924,48 @@
                 "sections": [
                     {
                         "name": "B1F moving platforms",
+                        "access_rules": [
+                            "[lamp]"
+                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F gibdo room (lower)",
+                        "access_rules": [
+                            "[lamp]"
+                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F gibdo room (higher)",
+                        "access_rules": [
+                            "[lamp]"
+                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F grate room",
+                        "access_rules": [
+                            "[lamp]"
+                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B2F moving platform",
+                        "access_rules": [
+                            "[lamp]"
+                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F eyes big chest",
                         "access_rules": [
-                            "frod",
+                            "frod, [lamp]",
                             "lamp"  
                         ],
                         "item_count": 1
@@ -959,7 +974,7 @@
                     {
                         "name": "Surface chest",
                         "access_rules": [
-                            "frod",
+                            "frod, [lamp]",
                             "lamp"  
                         ],
                         "item_count": 1
@@ -968,7 +983,7 @@
                     {
                         "name": "B1F south big chest",
                         "access_rules": [
-                            "frod",
+                            "frod, [lamp]",
                             "lamp"  
                         ],
                         "item_count": 1
@@ -977,7 +992,6 @@
                     {
                         "name": "Knucklemaster HC",
                         "access_rules": [
-                            "[frod]",
                             "[lamp]"  
                         ],
                         "item_count": 1
@@ -987,7 +1001,6 @@
                         "name": "Knucklemaster reward",
                         "hosted_item": "seres",
                         "access_rules": [
-                            "[frod]",
                             "[lamp]"  
                         ],
                         "item_count": 0

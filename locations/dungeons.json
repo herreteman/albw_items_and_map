@@ -12,6 +12,7 @@
             "hookshot",
             "boomerang",
             "bombs",
+            "irod"
 
             // Sword beams
             "sword2, [bow]",
@@ -43,6 +44,7 @@
                     "hookshot",
                     "boomerang",
                     "bombs",
+                    "niceirod",
 
                     // Sword beams
                     "sword2, [bow]",
@@ -60,7 +62,8 @@
                     "bow",
                     "hammer",
                     "frod",
-                    "bombs"
+                    "bombs",
+                    "irod"
                 ],
                 "item_count": 1
             },
@@ -72,7 +75,8 @@
                     "bow",
                     "hammer",
                     "frod",
-                    "bombs" 
+                    "bombs",
+                    "irod" 
                 ],
                 "item_count": 1
             },
@@ -102,7 +106,8 @@
                     "bow",
                     "hammer",
                     "frod",
-                    "bombs" 
+                    "bombs",
+                    "irod" 
                 ],
                 "item_count": 1
             },
@@ -114,7 +119,8 @@
                     "bow",
                     "hammer",
                     "frod",
-                    "bombs"
+                    "bombs",
+                    "irod"
                 ],
                 "item_count": 1
             },
@@ -129,6 +135,7 @@
                     "boomerang, sword1",
                     "boomerang, hammer",
                     "bombs",
+                    "niceirod",
 
                     // Sword beams
                     "sword2, [bow]",
@@ -148,7 +155,8 @@
                     "hookshot, hammer",
                     "boomerang, sword1",
                     "boomerang, hammer",
-                    "bombs"
+                    "bombs",
+                    "irod"
                 ],
                 "item_count": 1
             },
@@ -159,8 +167,11 @@
                     "bow",
                     "hookshot, sword1",
                     "hookshot, hammer",
+                    "hookshot, irod",
                     "boomerang, sword1",
                     "boomerang, hammer",
+                    "boomerang, irod",
+                    "niceirod",
                     "bombs",
 
                     // Sword beams
@@ -177,8 +188,11 @@
                     "bow",
                     "hookshot, sword1",
                     "hookshot, hammer",
+                    "hookshot, irod",
                     "boomerang, sword1",
                     "boomerang, hammer",
+                    "boomerang, irod",
+                    "niceirod",
                     "bombs",
                     
                     // Sword beams
@@ -195,8 +209,11 @@
                     "bow, merge",
                     "hookshot, sword1, merge",
                     "hookshot, hammer, merge",
+                    "hookshot, irod, merge",
                     "boomerang, sword1, merge",
                     "boomerang, hammer, merge",
+                    "boomerang, irod, merge",
+                    "niceirod, merge",
                     "bombs, merge",
 
                     // Sword beams
@@ -213,8 +230,11 @@
                     "bow, merge",
                     "hookshot, sword1, merge",
                     "hookshot, hammer, merge",
+                    "hookshot, irod, merge",
                     "boomerang, sword1, merge",
                     "boomerang, hammer, merge",
+                    "boomerang, irod, merge",
+                    "niceirod, merge",
                     "bombs, merge",
 
                     // Sword beams
@@ -232,8 +252,11 @@
                     "bow, [merge]",
                     "hookshot, sword1, [merge]",
                     "hookshot, hammer, [merge]",
+                    "hookshot, irod, [merge]",
                     "boomerang, sword1, [merge]",
                     "boomerang, hammer, [merge]",
+                    "boomerang, irod, [merge]",
+                    "niceirod, [merge]",
                     "bombs, [merge]",
                     
                     // Sword beams

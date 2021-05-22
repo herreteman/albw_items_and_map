@@ -938,9 +938,9 @@
         ]
     },
 
-    // Eastern Palace area
+    // Eastern Ruins area
     {
-        "name": "Eastern Palace area",
+        "name": "Eastern Ruins",
         "color": "#80ff00",
         "access_rules": [ 
             "merge",
@@ -949,7 +949,8 @@
             "bow",
             "hookshot",
             "boomerang",
-            "bombs"
+            "bombs",
+            "irod"
         ],
         "children":[
             {

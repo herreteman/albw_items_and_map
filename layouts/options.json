@@ -8,8 +8,11 @@
                 "h_alignment": "center",
                 "item_margin": "0,0,0,0",
                 "rows": [
-                    [ "lamp", "sword" ],
-                    [ "bracelet", "yuga" ]
+                    [ "y_true" ],
+                    [ "darkness_false", "bee_false" ],
+                    [ "captain_skip", "dampe_shuffle" ],
+                    [ "lamp_shuffle", "bracelet_skip" ],
+                    [ "open_true", "barrier_start" ]
                 ]
             }            
         ]

@@ -1,0 +1,181 @@
+[
+  // Y button from the start
+  {
+    "name": "y_button_enabled",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [          
+      {
+        "img": "images/sprite/lamp.png",
+        "codes": "y_true"
+      },
+      {
+        "img": "images/sprite/lamp_nice.png",
+        "codes": "y_false"
+      }
+    ]
+  },
+
+  // Dark rooms require Lamp
+  {
+    "name": "dont_require_lamp_for_darkness",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [          
+      {
+        "img": "images/sprite/lamp.png",
+        "codes": "darkness_true"
+      },
+      {
+        "img": "images/sprite/lamp_nice.png",
+        "codes": "darkness_false"
+      }
+    ]
+  },
+
+  // Golden Bee Vendor
+  {
+    "name": "require_golden_bee_for_sale",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [          
+      {
+        "img": "images/sprite/bottle_goldbee.png",
+        "codes": "bee_true"
+      },
+      {
+        "img": "images/sprite/net.png",
+        "codes": "bee_false"
+      }
+    ]
+  },
+
+  // Unsafe key placement
+  {
+    "name": "unsafe_key_placement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [          
+      {
+        "img": "images/sprite/key_big.png",
+        "codes": "keys_true"
+      },
+      {
+        "img": "images/sprite/key_small.png",
+        "codes": "keys_false"
+      }
+    ]
+  },
+
+  // Captain Sword
+  {
+    "name": "captains_sword",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [          
+      {
+        "img": "images/sprite/sword1.png",
+        "codes": "captain_skip"
+      },
+      {
+        "img": "images/sprite/fruit_foul.png",
+        "codes": "captain_normal"
+      }
+    ]
+  },
+
+  // Borrowed Sword
+  {
+    "name": "borrowed_sword",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [          
+      {
+        "img": "images/sprite/sword1.png",
+        "codes": "dampe_shuffle"
+      },
+      {
+        "img": "images/sprite/fruit_foul.png",
+        "codes": "dampe_normal"
+      }
+    ]
+  },
+
+  // Vanilla lamp
+  {
+    "name": "lamp_progression",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [          
+      {
+        "img": "images/sprite/lamp_nice.png",
+        "codes": "lamp_shuffle"
+      },
+      {
+        "img": "images/sprite/lamp.png",
+        "codes": "lamp_normal"
+      }
+    ]
+  },
+
+  // First Bracelet
+  {
+    "name": "first_bracelet",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [          
+      {
+        "img": "images/sprite/bracelet2.png",
+        "codes": "bracelet_skip"
+      },
+      {
+        "img": "images/sprite/bracelet1.png",
+        "codes": "bracelet_normal"
+      }
+    ]
+  },
+
+  // Open
+  {
+    "name": "open",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [          
+      {
+        "img": "images/sprite/bracelet2.png",
+        "codes": "open_true"
+      },
+      {
+        "img": "images/sprite/lamp.png",
+        "codes": "open_false"
+      }
+    ]
+  },
+
+  // Barrier
+  {
+    "name": "barrier",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [          
+      {
+        "img": "images/sprite/sword2.png",
+        "codes": "barrier_start"
+      },
+      {
+        "img": "images/sprite/pendant_green.png",
+        "codes": "barrier_normal"
+      }
+    ]
+  }
+]

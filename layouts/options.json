@@ -1,0 +1,17 @@
+{
+    "options_menu": {
+        "type": "array",
+        "margin": "5",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "0,0,0,0",
+                "rows": [
+                    [ "lamp", "sword" ],
+                    [ "bracelet", "yuga" ]
+                ]
+            }            
+        ]
+    }
+}

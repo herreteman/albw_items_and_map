@@ -3,6 +3,7 @@ Tracker:AddItems("items/equipment.json")
 Tracker:AddItems("items/dungeons.json")
 
 Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/options.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 

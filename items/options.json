@@ -7,11 +7,11 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/sprite/lamp.png",
+        "img": "images/options/setting_y_true.png",
         "codes": "y_true"
       },
       {
-        "img": "images/sprite/lamp_nice.png",
+        "img": "images/options/setting_y_false.png",
         "codes": "y_false"
       }
     ]
@@ -25,11 +25,11 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/sprite/lamp.png",
+        "img": "images/options/setting_y_true.png",
         "codes": "darkness_true"
       },
       {
-        "img": "images/sprite/lamp_nice.png",
+        "img": "images/options/setting_y_false.png",
         "codes": "darkness_false"
       }
     ]
@@ -43,11 +43,11 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/sprite/bottle_goldbee.png",
+        "img": "images/options/setting_y_true.png",
         "codes": "bee_true"
       },
       {
-        "img": "images/sprite/net.png",
+        "img": "images/options/setting_y_false.png",
         "codes": "bee_false"
       }
     ]
@@ -61,11 +61,11 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/sprite/key_big.png",
+        "img": "images/options/setting_y_true.png",
         "codes": "keys_true"
       },
       {
-        "img": "images/sprite/key_small.png",
+        "img": "images/options/setting_y_false.png",
         "codes": "keys_false"
       }
     ]
@@ -79,11 +79,11 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/sprite/sword1.png",
+        "img": "images/options/setting_y_true.png",
         "codes": "captain_skip"
       },
       {
-        "img": "images/sprite/fruit_foul.png",
+        "img": "images/options/setting_y_false.png",
         "codes": "captain_normal"
       }
     ]
@@ -97,11 +97,11 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/sprite/sword1.png",
+        "img": "images/options/setting_y_true.png",
         "codes": "dampe_shuffle"
       },
       {
-        "img": "images/sprite/fruit_foul.png",
+        "img": "images/options/setting_y_false.png",
         "codes": "dampe_normal"
       }
     ]
@@ -115,11 +115,11 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/sprite/lamp_nice.png",
+        "img": "images/options/setting_y_true.png",
         "codes": "lamp_shuffle"
       },
       {
-        "img": "images/sprite/lamp.png",
+        "img": "images/options/setting_y_false.png",
         "codes": "lamp_normal"
       }
     ]
@@ -133,11 +133,11 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/sprite/bracelet2.png",
+        "img": "images/options/setting_y_true.png",
         "codes": "bracelet_skip"
       },
       {
-        "img": "images/sprite/bracelet1.png",
+        "img": "images/options/setting_y_false.png",
         "codes": "bracelet_normal"
       }
     ]
@@ -151,11 +151,11 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/sprite/bracelet2.png",
+        "img": "images/options/setting_y_true.png",
         "codes": "open_true"
       },
       {
-        "img": "images/sprite/lamp.png",
+        "img": "images/options/setting_y_false.png",
         "codes": "open_false"
       }
     ]
@@ -169,11 +169,11 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/sprite/sword2.png",
+        "img": "images/options/setting_y_true.png",
         "codes": "barrier_start"
       },
       {
-        "img": "images/sprite/pendant_green.png",
+        "img": "images/options/setting_y_false.png",
         "codes": "barrier_normal"
       }
     ]

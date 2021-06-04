@@ -7,14 +7,15 @@
                 "type": "itemgrid",
                 "h_alignment": "center",
                 "item_size": "120",
-                "item_margin": "0,-40,0,-40",
+                "item_margin": "3,-40,3,-30",
                 "rows": [
                     [ ],
                     [ ],
                     [ ],
                     [ ],
-                    [ "y_true" ],
-                    [ "darkness_false", "bee_false" ],
+                    [ ],
+                    [ "y_true", "keys_false" ],
+                    [ "darkrooms_false", "bee_false" ],
                     [ "captain_skip", "dampe_shuffle" ],
                     [ "lamp_shuffle", "bracelet_skip" ],
                     [ "open_true", "barrier_start" ]

@@ -8,11 +8,13 @@
     "stages": [          
       {
         "img": "images/options/setting_y_true.png",
-        "codes": "y_true"
+        "codes": "y_true",
+        "inherit_codes": false
       },
       {
         "img": "images/options/setting_y_false.png",
-        "codes": "y_false"
+        "codes": "y_false",
+        "inherit_codes": false
       }
     ]
   },
@@ -26,11 +28,13 @@
     "stages": [          
       {
         "img": "images/options/setting_darkrooms_true.png",
-        "codes": "darkrooms_true"
+        "codes": "darkrooms_true",
+        "inherit_codes": false
       },
       {
         "img": "images/options/setting_darkrooms_false.png",
-        "codes": "darkrooms_false"
+        "codes": "darkrooms_false",
+        "inherit_codes": false
       }
     ]
   },
@@ -44,11 +48,13 @@
     "stages": [          
       {
         "img": "images/options/setting_bee_true.png",
-        "codes": "bee_true"
+        "codes": "bee_true",
+        "inherit_codes": false
       },
       {
         "img": "images/options/setting_bee_false.png",
-        "codes": "bee_false"
+        "codes": "bee_false",
+        "inherit_codes": false
       }
     ]
   },
@@ -62,11 +68,13 @@
     "stages": [          
       {
         "img": "images/options/setting_keys_true.png",
-        "codes": "keys_true"
+        "codes": "keys_true",
+        "inherit_codes": false
       },
       {
         "img": "images/options/setting_keys_false.png",
-        "codes": "keys_false"
+        "codes": "keys_false",
+        "inherit_codes": false
       }
     ]
   },
@@ -80,11 +88,13 @@
     "stages": [          
       {
         "img": "images/options/setting_captain_true.png",
-        "codes": "captain_skip"
+        "codes": "captain_skip",
+        "inherit_codes": false
       },
       {
         "img": "images/options/setting_captain_false.png",
-        "codes": "captain_normal"
+        "codes": "captain_normal",
+        "inherit_codes": false
       }
     ]
   },
@@ -98,11 +108,13 @@
     "stages": [          
       {
         "img": "images/options/setting_dampe_true.png",
-        "codes": "dampe_shuffle"
+        "codes": "dampe_shuffle",
+        "inherit_codes": false
       },
       {
         "img": "images/options/setting_dampe_false.png",
-        "codes": "dampe_normal"
+        "codes": "dampe_normal",
+        "inherit_codes": false
       }
     ]
   },
@@ -116,11 +128,13 @@
     "stages": [          
       {
         "img": "images/options/setting_lamp_true.png",
-        "codes": "lamp_shuffle"
+        "codes": "lamp_shuffle",
+        "inherit_codes": false
       },
       {
         "img": "images/options/setting_lamp_false.png",
-        "codes": "lamp_normal"
+        "codes": "lamp_normal",
+        "inherit_codes": false
       }
     ]
   },
@@ -134,11 +148,13 @@
     "stages": [          
       {
         "img": "images/options/setting_bracelet_true.png",
-        "codes": "bracelet_skip"
+        "codes": "bracelet_skip",
+        "inherit_codes": false
       },
       {
         "img": "images/options/setting_bracelet_false.png",
-        "codes": "bracelet_normal"
+        "codes": "bracelet_normal",
+        "inherit_codes": false
       }
     ]
   },
@@ -152,11 +168,13 @@
     "stages": [          
       {
         "img": "images/options/setting_open_true.png",
-        "codes": "open_true"
+        "codes": "open_true",
+        "inherit_codes": false
       },
       {
         "img": "images/options/setting_open_false.png",
-        "codes": "open_false"
+        "codes": "open_false",
+        "inherit_codes": false
       }
     ]
   },
@@ -170,11 +188,13 @@
     "stages": [          
       {
         "img": "images/options/setting_barrier_true.png",
-        "codes": "barrier_start"
+        "codes": "barrier_start",
+        "inherit_codes": false
       },
       {
         "img": "images/options/setting_barrier_false.png",
-        "codes": "barrier_normal"
+        "codes": "barrier_normal",
+        "inherit_codes": false
       }
     ]
   }

@@ -1,0 +1,9 @@
+[
+  // Captain Sword
+  {
+    "name": "Captain's Sword",
+    "type": "toggle",
+    "img": "images/sprite/sword1.png",
+    "codes": "captsword"
+  }
+]

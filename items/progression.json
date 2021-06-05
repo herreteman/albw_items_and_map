@@ -9,9 +9,25 @@
 
   // Sanctuary completion
   {
-    "name": "Captain's Sword",
+    "name": "Sanctuary complete",
     "type": "toggle",
     "img": "images/model/yuga.png",
     "codes": "sanct"
+  },
+
+  // Shady Guy cutscene
+  {
+    "name": "Shady Guy",
+    "type": "toggle",
+    "img": "images/model/shadyguy.png",
+    "codes": "shadyguy"
+  },
+
+  // Ravio Shop unlock
+  {
+    "name": "Ravio Shop",
+    "type": "toggle",
+    "img": "images/model/yuga.png",
+    "codes": "shop"
   }
 ]

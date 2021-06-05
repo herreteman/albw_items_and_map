@@ -340,9 +340,7 @@
                 "name": "Ravio's Shop",
                 "short_name": "Shop",
                 "access_rules": [
-                    "[strength1]", // Change to access Mountain
-                    "merge, smoothgem",
-                    "flippers" // 3rd trigger, HoG 
+                    "shop" 
                 ],
                 "map_locations": [
                   {
@@ -469,10 +467,7 @@
                   {
                     "name": "Get 100",
                     "access_rules": [
-                      // You need to buy anything from Ravio's Shop
-                      "[strength1]", 
-                      "merge, smoothgem",
-                      "flippers" 
+                      "shop" 
                   ],
                     "item_count": 1
                   }
@@ -994,7 +989,34 @@
         "name": "Lake Hylia",
         "color": "#0084ff",
         "children": [
-            {
+          {
+            "name": "House of Gales Weahter Vane",
+            "short_name": "HoG Weather Vane",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "x": 383,
+                "y": 426
+              }
+            ],
+            "sections": [
+              {
+                "name": "Unlock Ravio's Shop",
+                "hosted_item": "shop",
+                "access_rules": [  
+                  "flippers",
+
+                  // Flipperless access
+                  "irod, hookshot, [flippers]",
+                  "frod, boots, [flippers]",
+                  "bombs, boots, [flippers]"
+                ],
+                "item_count": 0
+              }
+            ]
+          },
+          
+          {
                 "name": "Hyrule Hotfoot",
                 "short_name": "Hotfoot",
                 "map_locations": [
@@ -1236,7 +1258,28 @@
             "[strength1]"
         ],
         "children":[
-            {
+          {
+            "name": "Enter Death Mountain",
+            "short_name": "Enter DM",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "x": 206,
+                "y": 95
+              }
+            ],
+            "sections": [
+              {
+                "name": "Unlock Ravio's Shop",
+                "hosted_item": "shop",
+                "access_rules": [  
+                ],
+                "item_count": 0
+              }
+            ]
+          },  
+          
+          {
                 "name": "Blocked cave",
                 "short_name": "Blocked cave",
                 "map_locations": [
@@ -1675,7 +1718,29 @@
                     "item_count": 1
                   }
                 ]
-            }
+            },
+
+            {
+              "name": "Deliver Smooth Gem",
+              "short_name": "Deliver Smooth Gem",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 466,
+                  "y": 80
+                }
+              ],
+              "sections": [
+                {
+                  "name": "Unlock Ravio's Shop",
+                  "hosted_item": "shop",
+                  "access_rules": [  
+                    "[merge], smoothgem"
+                  ],
+                  "item_count": 0
+                }
+              ]
+            },
         ]
     },
 

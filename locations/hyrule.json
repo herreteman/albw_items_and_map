@@ -282,11 +282,59 @@
                   {
                     "name": "Bow slot (Free)",
                     "access_rules": [
+                      "open_true",
+                      "open_false, sanct"
                     ],
                     "item_count": 1
                   }
                 ]
             },
+
+            // Unshuffled bracelet
+            /*{
+              "name": "Ravio's Gift",
+              "short_name": "Ravio's Gift",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 292,
+                  "y": 345
+                }
+              ],
+              "sections": [
+                {
+                  "name": "First Bracelet",
+                  "hosted_item": "bracelet",
+                  "access_rules": [ 
+                    "open_true, bracelet_normal",
+                    "open_false, bracelet_normal, sanct"
+                  ],
+                  "item_count": 0
+                }
+              ]
+            },
+            {
+              "name": "Ravio's Gift",
+              "short_name": "Ravio's Gift",
+              "map_locations": [
+                {
+                  "map": "hyrule",
+                  "x": 292,
+                  "y": 345
+                }
+              ],
+              "sections": [
+                {
+                  "name": "First Bracelet",
+                  "hosted_item": "merge",
+                  "access_rules": [ 
+                    "bracelet, open_true, bracelet_normal",
+                    "bracelet, open_false, bracelet_normal, sanct"
+                  ],
+                  "item_count": 0
+                }
+              ]
+            },*/
 
             {
                 "name": "Ravio's Shop",
@@ -665,7 +713,6 @@
               ]
             },
 
-            // Unshuffled bracelet
             {
               "name": "Sanctuary church",
               "short_name": "Sanctuary",
@@ -677,37 +724,12 @@
                 }
               ],
               "access_rules": [
-                "bracelet_normal"
+                "open_false"
               ],
               "sections": [
                 {
                   "name": "Beat Sanctuary",
-                  "hosted_item": "bracelet",
-                  "access_rules": [ 
-                      "lamp",
-                      "frod"
-                  ],
-                  "item_count": 0
-                }
-              ]
-            },
-            {
-              "name": "Sanctuary church",
-              "short_name": "Sanctuary",
-              "map_locations": [
-                {
-                  "map": "hyrule",
-                  "x": 238,
-                  "y": 140
-                }
-              ],
-              "access_rules": [
-                "bracelet_normal"
-              ],
-              "sections": [
-                {
-                  "name": "Beat Sanctuary",
-                  "hosted_item": "merge",
+                  "hosted_item": "sanct",
                   "access_rules": [ 
                       "lamp",
                       "frod"
@@ -857,7 +879,8 @@
                   {
                     "name": "Gift",
                     "access_rules": [ 
-                        //"bracelet" 
+                        "open_true",
+                        "open_false, sanct" 
                     ],
                     "item_count": 1
                   }
@@ -900,7 +923,8 @@
                     "name": "Bottle slot (100)",
                     "capture_item": true,
                     "access_rules": [ 
-                        //"ep" 
+                      "open_true",
+                      "open_false, sanct" 
                     ],
                     "item_count": 1
                   },

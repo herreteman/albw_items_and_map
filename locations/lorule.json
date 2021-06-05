@@ -99,7 +99,28 @@
                 "name": "Lorule Field",
                 "color": "#6100b5",
                 "children": [
-                    {
+                  {
+                    "name": "Big Bomb Ranch",
+                    "short_name": "Big Bomb Ranch",
+                    "map_locations": [
+                      {
+                        "map": "lorule",
+                        "x": 115,
+                        "y": 346
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Buy Big Bomb (200)",
+                        "hosted_item": "bigbomb",
+                        "access_rules": [ 
+                        ],
+                        "item_count": 0
+                      }
+                    ]
+                },  
+                  
+                  {
                         "name": "Lorule Field Big Bomb Cave",
                         "short_name": "Big Bomb Cave",
                         "map_locations": [
@@ -113,6 +134,7 @@
                           {
                             "name": "Chest",
                             "access_rules": [ 
+                              "bigbomb" 
                             ],
                             "item_count": 1
                           }
@@ -132,7 +154,8 @@
                         "sections": [
                           {
                             "name": "3000 rupee reward",
-                            "access_rules": [ 
+                            "access_rules": [
+                              "bigbomb" 
                             ],
                             "item_count": 1
                           }
@@ -234,7 +257,11 @@
                         "sections": [
                           {
                             "name": "Chests + HP",
-                            "access_rules": [ 
+                            "access_rules": [
+                              "bigbomb",
+                              "frod, [bigbomb]",
+                              "bombs, [bigbomb]",
+                              "trod, scroll, [bigbomb]"
                             ],
                             "item_count": 3
                           }
@@ -296,7 +323,9 @@
                         "sections": [
                           {
                             "name": "Back entrance chest",
-                            "access_rules": [ 
+                            "access_rules": [
+                              "bombs",
+                              "bigbomb"  
                             ],
                             "item_count": 1
                           }

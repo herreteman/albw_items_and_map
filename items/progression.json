@@ -29,5 +29,13 @@
     "type": "toggle",
     "img": "images/model/ravio.png",
     "codes": "shop"
+  },
+
+  // Big Bomb purchase
+  {
+    "name": "Big Bomb",
+    "type": "toggle",
+    "img": "images/model/big bomb.png",
+    "codes": "bigbomb"
   }
 ]

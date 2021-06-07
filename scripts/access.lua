@@ -11,41 +11,90 @@ end
 -- Can the player deal damage?
 function damage()
     return has("sword1") or
-        has("bow") or
+        (use() and 
+        (has("bow") or
         has("hammer") or
         has("frod") or
         has("bombs") or
         has("irod") or
-        has("lamp")
+        has("lamp")))
+end
+
+-- Can the player destroy thin trees?
+function trees()
+    return has("sword1") or
+        (use() and 
+        (has("lamp") or
+        has("frod") or
+        has("bombs") or
+        has("irod")))
+end
+
+-- Can the player destroy boulders?
+function boulders()
+    return use() and
+        (has("hammer") or
+        has("bombs"))
 end
 
 -- Can the player use a fire source?
 function fire()
-    return has("frod") or
-        has("lamp")
+    return use() and
+        (has("frod") or
+        has("lamp"))
 end
 
 -- Can the player stun enemies?
 function stun()
-    return has("hookshot") or
+    return use() and
+        (has("hookshot") or
         has("boomerang") or
         has("srod") or
-        (has("shield1") and has("trod"))
+        (has("shield1") and has("trod")))
         -- Require shield because the purpose of this is moving enemies
 end
 
 -- Can the player stun enemies at a distance?
 function stun_far()
-    return has("hookshot") or
-        has("boomerang")
+    return use() and
+        (has("hookshot") or
+        has("boomerang"))
 end
 
 -- Can the player use projectiles to hit switches?
 function projectile()
-    return has("hookshot") or
+    return has("sword2") or
+        (use() and 
+        (has("hookshot") or
         has("boomerang") or
         has("bow") or
         has("bombs") or
-        has("sword2") or
-        has("niceirod")
+        has("irod")))
+end
+
+-- Can the player use projectiles to hit far away switches?
+function projectile_far()
+    return has("sword2") or
+        (use() and 
+        (has("hookshot") or
+        has("boomerang") or
+        has("bow") or
+        has("bombs") or
+        has("niceirod")))
+end
+
+-- Can the player damage boost to a ledge?
+function ledge()
+    return use() and
+        (has("frod") or
+        has("bombs"))
+end
+
+-- Can the player escape a softlock via damaging itself or warping away?
+function escape()
+    return has("bell") or
+        (use() and 
+        (has("frod") or
+        has("bombs") or
+        has("bell")))
 end

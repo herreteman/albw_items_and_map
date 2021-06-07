@@ -237,7 +237,7 @@
     "stages": [          
       {
         "img": "images/sprite/shield1.png",
-        "codes": "shield"
+        "codes": "shield1"
       },
       {
         "name": "Hylian Shield",

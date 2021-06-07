@@ -118,7 +118,7 @@
                         "item_count": 0
                       }
                     ]
-                },  
+                  },  
                   
                   {
                         "name": "Lorule Field Big Bomb Cave",
@@ -197,7 +197,7 @@
                           {
                             "name": "Chest",
                             "access_rules": [
-                              "hookshot" 
+                              "$use, hookshot" 
                             ],
                             "item_count": 1
                           }
@@ -259,9 +259,8 @@
                             "name": "Chests + HP",
                             "access_rules": [
                               "bigbomb",
-                              "frod, [bigbomb]",
-                              "bombs, [bigbomb]",
-                              "trod, scroll, [bigbomb]"
+                              "$ledge, [bigbomb]",
+                              "$use, trod, scroll, [bigbomb]"
                             ],
                             "item_count": 3
                           }
@@ -324,7 +323,7 @@
                           {
                             "name": "Back entrance chest",
                             "access_rules": [
-                              "bombs",
+                              "$use, bombs",
                               "bigbomb"  
                             ],
                             "item_count": 1
@@ -446,8 +445,8 @@
                         {
                           "name": "Intermediate reward",
                           "access_rules": [
-                            "[hammer]",
-                            "[trod]"
+                            "$damage, [hammer]",
+                            "$damage, [trod]"
                           ],
                           "item_count": 1
                         }
@@ -468,7 +467,7 @@
                           {
                             "name": "Overworld chest",
                             "access_rules": [
-                                "hookshot, trod" 
+                                "$use, hookshot, trod" 
                             ],
                             "item_count": 1
                           }
@@ -477,7 +476,7 @@
 
                     {
                         "name": "West Death Mountain ledge",
-                        "short_name": "Ice Gimos",
+                        "short_name": "West ledge",
                         "map_locations": [
                           {
                             "map": "lorule",
@@ -509,7 +508,7 @@
                           {
                             "name": "Chest",
                             "access_rules": [
-                                "hookshot, frod" 
+                                "$use, hookshot, frod" 
                             ],
                             "item_count": 1
                           }
@@ -518,16 +517,16 @@
                 ]
             },
 
-            // Cemetery / Dark Sanct
+            // Graveyard / Dark Sanct
             {
-                "name": "Cemetery",
+                "name": "Graveyard",
                 "color": "#737529",
                 "children": [
                     {
                         "name": "Grave under rock",
                         "short_name": "Grave under rock",
                         "access_rules": [
-                            "strength2, [lamp]"
+                            "strength2, [lamp], [$darkrooms]"
                         ],
                         "map_locations": [
                           {
@@ -555,6 +554,9 @@
                               },
                               {
                                 "name": "Big chest",
+                                "access_rules": [
+                                  "$damage"
+                                ],
                                 "item_count": 1
                               }
                         ]
@@ -599,7 +601,7 @@
                           {
                             "name": "Treasure",
                             "access_rules": [
-                                "srod, trod" 
+                                "$use, srod, trod" 
                             ],
                             "item_count": 1
                           }
@@ -627,9 +629,11 @@
                           "capture_item": true,
                           "access_rules": [
                             "{}",
-                            "srod, bombs",
-                            "staminascroll, bombs, [srod]",
-                            "frod, boots, [srod], [bombs]" 
+                            "$use, srod, bombs",
+                            "$use, staminascroll, bombs, [srod]",
+                            "$use, frod, bombs, [srod]",
+                            "$use, frod, boots, [srod], [bombs]"
+                             
                           ],
                           "item_count": 1
                         }
@@ -677,11 +681,10 @@
                           "capture_item": true,
                           "access_rules": [
                             "{}",
-                            "flippers, irod",
+                            "$use, flippers, irod",
 
                             //Fake Flippers
-                            "trod, irod, frod, [flippers]",
-                            "trod, irod, nicebombs, [flippers]"
+                            "trod, irod, $ledge, [flippers]"
                           ],
                           "item_count": 1
                         }

@@ -1,3 +1,5 @@
+ScriptHost:LoadScript("scripts/access.lua")
+
 Tracker:AddItems("items/usable.json")
 Tracker:AddItems("items/equipment.json")
 Tracker:AddItems("items/dungeons.json")

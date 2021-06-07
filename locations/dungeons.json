@@ -6,19 +6,7 @@
         "color": "#80ff00",
         "access_rules": [ 
             "merge",
-
-            //TODO: Change these to a general projectile function 
-            "bow",
-            "hookshot",
-            "boomerang",
-            "bombs",
-            "irod",
-
-            // Sword beams
-            "sword2, [bow]",
-            "sword2, [hookshot]",
-            "sword2, [boomerang]",
-            "sword2, [bombs]"
+            "$projectile"
         ],
         "map_locations": [
             {
@@ -39,18 +27,7 @@
             {
                 "name": "Entrance left chest",
                 "access_rules": [ 
-                    //TODO: Change these to a general projectile function 
-                    "bow",
-                    "hookshot",
-                    "boomerang",
-                    "bombs",
-                    "niceirod",
-
-                    // Sword beams
-                    "sword2, [bow]",
-                    "sword2, [hookshot]",
-                    "sword2, [boomerang]",
-                    "sword2, [bombs]"
+                    "$projectile_far"
                 ],
                 "item_count": 1
             },
@@ -58,12 +35,7 @@
             {
                 "name": "1F West Popos room",
                 "access_rules": [ 
-                    "sword1",
-                    "bow",
-                    "hammer",
-                    "frod",
-                    "bombs",
-                    "irod"
+                    "$damage"
                 ],
                 "item_count": 1
             },
@@ -71,12 +43,7 @@
             {
                 "name": "Popos room secret exit",
                 "access_rules": [
-                    "sword1",
-                    "bow",
-                    "hammer",
-                    "frod",
-                    "bombs",
-                    "irod" 
+                    "$damage" 
                 ],
                 "item_count": 1
             },
@@ -84,7 +51,7 @@
             {
                 "name": "1F East switches",
                 "access_rules": [ 
-                    //TODO: Change these to a general projectile function 
+                    // Ice Rod specifically doesn't work here, can't use $projectile 
                     "bow",
                     "hookshot",
                     "boomerang",
@@ -102,12 +69,7 @@
             {
                 "name": "2F Ball room",
                 "access_rules": [
-                    "sword1",
-                    "bow",
-                    "hammer",
-                    "frod",
-                    "bombs",
-                    "irod" 
+                    "$damage" 
                 ],
                 "item_count": 1
             },
@@ -115,12 +77,7 @@
             {
                 "name": "2F East kill Popos",
                 "access_rules": [
-                    "sword1",
-                    "bow",
-                    "hammer",
-                    "frod",
-                    "bombs",
-                    "irod"
+                    "$damage"
                 ],
                 "item_count": 1
             },
@@ -128,22 +85,7 @@
             {
                 "name": "2F 4 switches room",
                 "access_rules": [ 
-                    //TODO: Change these to a general projectile function 
-                    "bow",
-                    "hookshot, sword1",
-                    "hookshot, hammer",
-                    "hookshot, frod",
-                    "boomerang, sword1",
-                    "boomerang, hammer",
-                    "boomerang, frod",
-                    "bombs",
-                    "niceirod",
-
-                    // Sword beams
-                    "sword2, [bow]",
-                    "sword2, [hookshot]",
-                    "sword2, [boomerang]",
-                    "sword2, [bombs]"
+                    "$damage, $projectile_far"
                 ],
                 "item_count": 1
             },
@@ -151,14 +93,7 @@
             {
                 "name": "Big chest",
                 "access_rules": [ 
-                    //TODO: Change these to a general projectile function 
-                    "bow",
-                    "hookshot, sword1",
-                    "hookshot, hammer",
-                    "boomerang, sword1",
-                    "boomerang, hammer",
-                    "bombs",
-                    "irod"
+                    "$damage"
                 ],
                 "item_count": 1
             },
@@ -166,20 +101,12 @@
             {
                 "name": "Yuga reward",
                 "access_rules": [ 
-                    "bow",
-                    "hookshot, sword1",
-                    "hookshot, hammer",
-                    "hookshot, irod",
-                    "boomerang, sword1",
-                    "boomerang, hammer",
-                    "boomerang, irod",
-                    "niceirod",
-                    "bombs",
+                    "$projectile_far",
+                    "$stun_far, $damage",
 
-                    // Sword beams
-                    "sword2, [bow]",
-                    "sword2, [hookshot]",
-                    "sword2, [bombs]"
+                    // Fire Rod with pots is not covered by the above
+                    "frod, merge, [$projectile]",
+                    "frod, $damage"
                 ],
                 "item_count": 1
             },
@@ -187,20 +114,12 @@
             {
                 "name": "Heart Container",
                 "access_rules": [ 
-                    "bow",
-                    "hookshot, sword1",
-                    "hookshot, hammer",
-                    "hookshot, irod",
-                    "boomerang, sword1",
-                    "boomerang, hammer",
-                    "boomerang, irod",
-                    "niceirod",
-                    "bombs",
-                    
-                    // Sword beams
-                    "sword2, [bow]",
-                    "sword2, [hookshot]",
-                    "sword2, [bombs]"
+                    "$projectile_far",
+                    "$stun_far, $damage",
+
+                    // Fire Rod with pots is not covered by the above
+                    "frod, merge, [$projectile]",
+                    "frod, $damage"
                 ],
                 "item_count": 1
             },
@@ -208,20 +127,12 @@
             {
                 "name": "Post-Yuga east chest",
                 "access_rules": [ 
-                    "bow, merge",
-                    "hookshot, sword1, merge",
-                    "hookshot, hammer, merge",
-                    "hookshot, irod, merge",
-                    "boomerang, sword1, merge",
-                    "boomerang, hammer, merge",
-                    "boomerang, irod, merge",
-                    "niceirod, merge",
-                    "bombs, merge",
+                    "$projectile_far, merge",
+                    "$stun_far, $damage, merge",
 
-                    // Sword beams
-                    "sword2, merge, [bow]",
-                    "sword2, merge, [hookshot]",
-                    "sword2, merge, [bombs]"
+                    // Fire Rod with pots is not covered by the above
+                    "frod, merge, [$projectile]",
+                    "frod, $damage, merge"
                 ],
                 "item_count": 1
             },
@@ -229,20 +140,12 @@
             {
                 "name": "SW outside chest",
                 "access_rules": [ 
-                    "bow, merge",
-                    "hookshot, sword1, merge",
-                    "hookshot, hammer, merge",
-                    "hookshot, irod, merge",
-                    "boomerang, sword1, merge",
-                    "boomerang, hammer, merge",
-                    "boomerang, irod, merge",
-                    "niceirod, merge",
-                    "bombs, merge",
+                    "$projectile_far, merge",
+                    "$stun_far, $damage, merge",
 
-                    // Sword beams
-                    "sword2, merge, [bow]",
-                    "sword2, merge, [hookshot]",
-                    "sword2, merge, [bombs]"
+                    // Fire Rod with pots is not covered by the above
+                    "frod, merge, [$projectile]",
+                    "frod, $damage, merge"
                 ],
                 "item_count": 1
             },
@@ -251,20 +154,12 @@
                 "name": "Escape",
                 "hosted_item": "ep",
                 "access_rules": [ 
-                    "bow, [merge]",
-                    "hookshot, sword1, [merge]",
-                    "hookshot, hammer, [merge]",
-                    "hookshot, irod, [merge]",
-                    "boomerang, sword1, [merge]",
-                    "boomerang, hammer, [merge]",
-                    "boomerang, irod, [merge]",
-                    "niceirod, [merge]",
-                    "bombs, [merge]",
-                    
-                    // Sword beams
-                    "sword2, [merge], [bow]",
-                    "sword2, [merge], [hookshot]",
-                    "sword2, [merge], [bombs]"
+                    "$projectile_far, [merge]",
+                    "$stun_far, $damage, [merge]",
+
+                    // Fire Rod with pots is not covered by the above
+                    "frod, merge, [$projectile]",
+                    "frod, $damage, [merge]"
                 ],
                 "item_count": 0
             }
@@ -277,10 +172,11 @@
         "short_name": "Gales",
         "color": "#0084ff",
         "access_rules": [ 
-            "trod, flippers",
+            "$use, trod, flippers",
 
             // Flipperless access
-            "trod, irod, hookshot, [flippers]"
+            "$use, trod, irod, hookshot, [flippers]",
+            "$ledge, trod, [flippers]"
         ],
         "map_locations": [
             {
@@ -293,8 +189,7 @@
             {
                 "name": "1F torch chest",
                 "access_rules": [ 
-                    "lamp",
-                    "frod"
+                    "$fire"
                 ],
                 "item_count": 1
             },
@@ -302,12 +197,7 @@
             {
                 "name": "1F NE room",
                 "access_rules": [ 
-                    // TODO: change to a generic "hit switch" function
-                    "sword1",
-                    "bow",
-                    "hookshot",
-                    "boomerang",
-                    "bombs"
+                    "$projectile"
                 ],
                 "item_count": 1
             },
@@ -315,7 +205,7 @@
             {
                 "name": "1F Bubble room",
                 "access_rules": [ 
-                    "merge"
+                    "merge, $damage"
                 ],
                 "item_count": 1
             },
@@ -323,7 +213,7 @@
             {
                 "name": "1F Platform room",
                 "access_rules": [ 
-                    "merge"
+                    "[merge]"
                 ],
                 "item_count": 1
             },
@@ -339,7 +229,7 @@
             {
                 "name": "2F ledge key",
                 "access_rules": [ 
-                    "merge"
+                    "[merge]"
                 ],
                 "item_count": 1
             },
@@ -347,7 +237,7 @@
             {
                 "name": "2F fire ring key",
                 "access_rules": [ 
-                    "merge"
+                    "[merge]"
                 ],
                 "item_count": 1
             },
@@ -355,7 +245,7 @@
             {
                 "name": "Big chest",
                 "access_rules": [ 
-                    "merge"
+                    "[merge]"
                 ],
                 "item_count": 1
             },
@@ -363,14 +253,7 @@
             {
                 "name": "3F Bubble room",
                 "access_rules": [ 
-                    "merge, lamp, [sword1]",
-                    "merge, frod, [sword1]",
-                    "merge, lamp, [hammer]",
-                    "merge, frod, [hammer]",
-                    "merge, lamp, [bombs]",
-                    "merge, frod, [bombs]",
-                    "merge, lamp, [bow]",
-                    "merge, frod, [bow]"
+                    "merge, $fire, [$damage]"
                 ],
                 "item_count": 1
             },
@@ -378,14 +261,7 @@
             {
                 "name": "3F Rat room",
                 "access_rules": [ 
-                    "merge, [lamp], [sword1]",
-                    "merge, [frod], [sword1]",
-                    "merge, [lamp], [hammer]",
-                    "merge, [frod], [hammer]",
-                    "merge, [lamp], [bombs]",
-                    "merge, [frod], [bombs]",
-                    "merge, [lamp], [bow]",
-                    "merge, [frod], [bow]"
+                    "merge, [$fire], [$damage]"
                 ],
                 "item_count": 1
             },
@@ -393,14 +269,7 @@
             {
                 "name": "Margomill HC",
                 "access_rules": [ 
-                    "merge, [lamp], sword1",
-                    "merge, [frod], sword1",
-                    "merge, [lamp], hammer",
-                    "merge, [frod], hammer",
-                    "merge, [lamp], bombs",
-                    "merge, [frod], bombs",
-                    "merge, [lamp], bow",
-                    "merge, [frod], bow"
+                    "merge, [$fire], $damage"
                 ],
                 "item_count": 1
             },
@@ -409,8 +278,7 @@
                 "name": "Margomill Reward",
                 "hosted_item": "hog",
                 "access_rules": [ 
-                    "merge, [lamp]",
-                    "merge, [frod]"
+                    "merge, [$fire], $damage"
                 ],
                 "item_count": 0
             }
@@ -423,7 +291,7 @@
         "short_name": "Hera",
         "color": "#ff0000",
         "access_rules": [ 
-            "[strength1], [merge], hammer"
+            "$use, [strength1], [merge], hammer"
         ],
         "map_locations": [
             {
@@ -489,7 +357,8 @@
             {
                 "name": "7F east chest",
                 "access_rules": [ 
-                    "merge"
+                    "merge",
+                    "trod, bombs, sword1, [merge]"
                 ],
                 "item_count": 1
             },
@@ -571,7 +440,7 @@
                 "short_name": "Dark",
                 "color": "#000008",
                 "access_rules": [ 
-                    "bombs, [lamp]"
+                    "$use, bombs, [$darkrooms]"
                 ],
                 "map_locations": [
                     {
@@ -669,7 +538,8 @@
                 "short_name": "Swamp",
                 "color": "#002fff",
                 "access_rules": [ 
-                    "flippers, hookshot"
+                    "$use, flippers, hookshot, bigbomb",
+                    "$use, flippers, hookshot, irod, [bigbomb]",
                 ],
                 "map_locations": [
                     {
@@ -753,7 +623,7 @@
                 "short_name": "Ice",
                 "color": "#ffffff",
                 "access_rules": [ 
-                    "hookshot, frod, [strength1]"
+                    "$use, hookshot, frod, [strength1]"
                 ],
                 "map_locations": [
                     {
@@ -816,7 +686,8 @@
                     {
                         "name": "B2F far north long merge",
                         "access_rules": [
-                            "staminascroll"
+                            "staminascroll",
+                            "boots, [staminascroll]"
                         ],
                         "item_count": 1
                     },
@@ -850,11 +721,10 @@
                 "short_name": "Turtle",
                 "color": "#b50000",
                 "access_rules": [ 
-                    "flippers, irod",
+                    "$use, flippers, irod",
 
                     //Fake Flippers
-                    "trod, irod, frod, [flippers]",
-                    "trod, irod, nicebombs, [flippers]"
+                    "trod, irod, $ledge, [flippers]"
                 ],
                 "map_locations": [
                     {
@@ -938,6 +808,7 @@
                 "short_name": "Skull",
                 "color": "#d3de00",
                 "access_rules": [
+                    "[$darkrooms]"
                 ],
                 "map_locations": [
                     {
@@ -949,49 +820,33 @@
                 "sections": [
                     {
                         "name": "B1F moving platforms",
-                        "access_rules": [
-                            "[lamp]"
-                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F gibdo room (lower)",
-                        "access_rules": [
-                            "[lamp]"
-                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F gibdo room (higher)",
-                        "access_rules": [
-                            "[lamp]"
-                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F grate room",
-                        "access_rules": [
-                            "[lamp]"
-                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B2F moving platform",
-                        "access_rules": [
-                            "[lamp]"
-                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "B1F eyes big chest",
                         "access_rules": [
-                            "frod, [lamp]",
-                            "lamp"  
+                            "$fire, [$darkrooms]" 
                         ],
                         "item_count": 1
                     },
@@ -999,8 +854,7 @@
                     {
                         "name": "Surface chest",
                         "access_rules": [
-                            "frod, [lamp]",
-                            "lamp"  
+                            "$fire, [$darkrooms]"  
                         ],
                         "item_count": 1
                     },
@@ -1008,8 +862,7 @@
                     {
                         "name": "B1F south big chest",
                         "access_rules": [
-                            "frod, [lamp]",
-                            "lamp"  
+                            "$fire, [$darkrooms]"  
                         ],
                         "item_count": 1
                     },
@@ -1017,7 +870,7 @@
                     {
                         "name": "Knucklemaster HC",
                         "access_rules": [
-                            "[lamp]"  
+                            "[$fire], [$darkrooms]"  
                         ],
                         "item_count": 1
                     },
@@ -1026,7 +879,7 @@
                         "name": "Knucklemaster reward",
                         "hosted_item": "seres",
                         "access_rules": [
-                            "[lamp]"  
+                            "[$fire], [$darkrooms]"  
                         ],
                         "item_count": 0
                     }
@@ -1084,8 +937,8 @@
                             "flippers",
                             
                             // From statue room OoB
-                            "trod, bombs, [flippers]",
-                            "trod, irod, [flippers]"
+                            "$use, trod, bombs, [flippers]",
+                            "$use, trod, irod, [flippers]"
                         ],
                         "item_count": 1
                     },
@@ -1096,8 +949,8 @@
                             "flippers",
                             
                             // From statue room OoB
-                            "trod, bombs, [flippers]",
-                            "trod, irod, [flippers]"
+                            "$use, trod, bombs, [flippers]",
+                            "$use, trod, irod, [flippers]"
                         ],
                         "item_count": 1
                     },
@@ -1108,8 +961,8 @@
                             "flippers",
                             
                             // From statue room OoB
-                            "trod, bombs, [flippers]",
-                            "trod, irod, [flippers]"
+                            "$use, trod, bombs, [flippers]",
+                            "$use, trod, irod, [flippers]"
                         ],
                         "item_count": 1
                     },
@@ -1120,8 +973,9 @@
                             "flippers",
                             
                             // From statue room OoB
-                            "trod, bombs, [flippers]",
-                            "trod, irod, [flippers]"
+                            "$use, trod, boots, [flippers]",
+                            "$use, trod, bombs, [flippers]",
+                            "$use, trod, irod, [flippers]"
                         ],
                         "item_count": 1
                     },
@@ -1129,7 +983,11 @@
                     {
                         "name": "Stalblind HC",
                         "access_rules": [
-                            "flippers"
+                            "$damage, flippers",
+                            
+                            // From statue room OoB
+                            "$damage, trod, bombs, [flippers]",
+                            "$damage, trod, irod, [flippers]"
                         ],
                         "item_count": 1
                     },
@@ -1138,7 +996,11 @@
                         "name": "Stalblind reward",
                         "hosted_item": "osfala",
                         "access_rules": [
-                            "flippers"
+                            "$damage, flippers",
+                            
+                            // From statue room OoB
+                            "$damage, trod, bombs, [flippers]",
+                            "$damage, trod, irod, [flippers]"
                         ],
                         "item_count": 0
                     }
@@ -1151,7 +1013,7 @@
                 "short_name": "Desert",
                 "color": "#ffff00",
                 "access_rules": [
-                    "srod" 
+                    "$use, srod" 
                 ],
                 "map_locations": [
                     {
@@ -1284,22 +1146,22 @@
                     {
                         "name": "Zaganaga HC",
                         "access_rules": [
-                            "srod, strength2",
+                            "$use, srod, strength2",
 
                             // Desert skip
                             // Get to platform normally, frod boost, fight as normal
-                            "frod, srod, [strength2]", 
+                            "$use, frod, srod, [strength2]", 
                             // Get to platform w/ irod clip + trod, frod boost, skip fight
-                            "frod, irod, trod, boots, [srod], [strength2]",
+                            "$use, frod, irod, trod, boots, [srod], [strength2]",
                             // Same as above, but Low% fight
-                            "frod, irod, trod, bow, [srod], [strength2]",
+                            "$use, frod, irod, trod, bow, [srod], [strength2]",
                             // Same as above, but shitty Low% fight
                             //"frod, irod, trod, [srod], [strength2]",
                             
                             // East screen bomb boost and skip
-                            "bombs, trod, boots, [srod], [strength2]",
+                            "$use, bombs, trod, boots, [srod], [strength2]",
                             // Same as above, but Low% fight
-                            "bombs, trod, bow, [srod], [strength2]"
+                            "$use, bombs, trod, bow, [srod], [strength2]"
                             // Same as above, but shitty Low% fight
                             //"bombs, trod, [srod], [strength2]"
                         ],
@@ -1310,22 +1172,22 @@
                         "name": "Zaganaga reward",
                         "hosted_item": "irene",
                         "access_rules": [
-                            "srod, strength2",
+                            "$use, srod, strength2",
 
                             // Desert skip
                             // Get to platform normally, frod boost, fight as normal
-                            "frod, srod, [strength2]", 
+                            "$use, frod, srod, [strength2]", 
                             // Get to platform w/ irod clip + trod, frod boost, skip fight
-                            "frod, irod, trod, boots, [srod], [strength2]",
+                            "$use, frod, irod, trod, boots, [srod], [strength2]",
                             // Same as above, but Low% fight
-                            "frod, irod, trod, bow, [srod], [strength2]",
+                            "$use, frod, irod, trod, bow, [srod], [strength2]",
                             // Same as above, but shitty Low% fight
                             //"frod, irod, trod, [srod], [strength2]",
                             
                             // East screen bomb boost and skip
-                            "bombs, trod, boots, [srod], [strength2]",
+                            "$use, bombs, trod, boots, [srod], [strength2]",
                             // Same as above, but Low% fight
-                            "bombs, trod, bow, [srod], [strength2]"
+                            "$use, bombs, trod, bow, [srod], [strength2]"
                             // Same as above, but shitty Low% fight
                             //"bombs, trod, [srod], [strength2]"
                         ],
@@ -1388,7 +1250,7 @@
                     {
                         "name": "Bomb trial center",
                         "access_rules": [
-                            "bombs"
+                            "$use, bombs"
                         ],
                         "item_count": 1
                     },
@@ -1396,7 +1258,7 @@
                     {
                         "name": "Bomb trial behind rock",
                         "access_rules": [
-                            "bombs"
+                            "$use, bombs"
                         ],
                         "item_count": 1
                     },
@@ -1418,11 +1280,17 @@
 
                     {
                         "name": "Hookshot trial east",
+                        "access_rules": [
+                            "$use, hookshot"
+                        ],
                         "item_count": 1
                     },
 
                     {
                         "name": "Hookshot trial eyes",
+                        "access_rules": [
+                            "$use, hookshot"
+                        ],
                         "item_count": 1
                     }
                 ]
@@ -1446,13 +1314,16 @@
                 "sections": [
                     {
                         "name": "Zelda's gift",
+                        "access_rules": [
+                            "$damage"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Triforce",
                         "hosted_item": "triforce",
                         "access_rules": [
-                            "bowlight"
+                            "$damage, bowlight"
                         ],
                         "item_count": 0
                     }

@@ -98,3 +98,9 @@ function escape()
         has("bombs") or
         has("bell")))
 end
+
+-- Can the player logically traverse dark rooms?
+function darkrooms()
+    return has("darkrooms_true") or
+        (has("darkrooms_false") and has("lamp"))
+end

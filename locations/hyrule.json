@@ -590,14 +590,14 @@
                   {
                     "name": "Lower chest",
                     "access_rules": [ 
-                      "$fire" 
+                      "$fire, [$darkrooms]" 
                     ],
                     "item_count": 1
                   },
                   {
                     "name": "Upper chest",
                     "access_rules": [ 
-                      "$fire" 
+                      "$fire, [$darkrooms]" 
                     ],
                     "item_count": 1
                   },
@@ -606,7 +606,7 @@
                     "capture_item": true,
                     "access_rules": [ 
                       "{$fire}", 
-                      "$fire, merge" 
+                      "$fire, merge, [$darkrooms]" 
                     ],
                     "item_count": 1
                   }
@@ -640,14 +640,14 @@
                 {
                   "name": "Lower chest",
                   "access_rules": [ 
-                    "$fire"
+                    "$fire, [$darkrooms]"
                   ],
                   "item_count": 1
                 },
                 {
                   "name": "Upper chest",
                   "access_rules": [ 
-                    "$fire"
+                    "$fire, [$darkrooms]"
                   ],
                   "item_count": 1
                 },
@@ -656,7 +656,7 @@
                   "capture_item": true,
                   "access_rules": [ 
                     "{$fire}", 
-                    "$fire, merge" 
+                    "$fire, merge, [$darkrooms]" 
                   ],
                   "item_count": 1
                 }

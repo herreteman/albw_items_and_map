@@ -63,24 +63,34 @@ end
 
 -- Can the player use projectiles to hit switches?
 function projectile()
-    return has("sword2") or
-        (use() and 
+    if use() and 
         (has("hookshot") or
         has("boomerang") or
         has("bow") or
         has("bombs") or
-        has("irod")))
+        has("irod")) then
+        return true, AccessibilityLevel.Normal
+    elseif has("sword2") then
+        return true, AccessibilityLevel.SequenceBreak
+	else
+		return false, AccessibilityLevel.None
+	end
 end
 
 -- Can the player use projectiles to hit far away switches?
 function projectile_far()
-    return has("sword2") or
-        (use() and 
+    if use() and 
         (has("hookshot") or
         has("boomerang") or
         has("bow") or
         has("bombs") or
-        has("niceirod")))
+        has("niceirod")) then
+        return true, AccessibilityLevel.Normal
+    elseif has("sword2") then
+        return true, AccessibilityLevel.SequenceBreak
+	else
+		return false, AccessibilityLevel.None
+	end
 end
 
 -- Can the player damage boost to a ledge?

@@ -8,7 +8,7 @@
     "stages": [          
       {
         "img": "images/options/setting_y_true.png",
-        "codes": "y_true",
+        "codes": "y_button_enabled, y_true",
         "inherit_codes": false
       },
       {
@@ -28,7 +28,7 @@
     "stages": [          
       {
         "img": "images/options/setting_darkrooms_true.png",
-        "codes": "darkrooms_true",
+        "codes": "dont_require_lamp_for_darkness, darkrooms_true",
         "inherit_codes": false
       },
       {
@@ -48,7 +48,7 @@
     "stages": [          
       {
         "img": "images/options/setting_bee_true.png",
-        "codes": "bee_true",
+        "codes": "require_golden_bee_for_sale, bee_true",
         "inherit_codes": false
       },
       {
@@ -68,7 +68,7 @@
     "stages": [          
       {
         "img": "images/options/setting_keys_true.png",
-        "codes": "keys_true",
+        "codes": "unsafe_key_placement, keys_true",
         "inherit_codes": false
       },
       {
@@ -88,7 +88,7 @@
     "stages": [          
       {
         "img": "images/options/setting_captain_true.png",
-        "codes": "captain_skip",
+        "codes": "captains_sword, captain_skip",
         "inherit_codes": false
       },
       {
@@ -108,7 +108,7 @@
     "stages": [          
       {
         "img": "images/options/setting_dampe_true.png",
-        "codes": "dampe_shuffle",
+        "codes": "borrowed_sword, dampe_shuffle",
         "inherit_codes": false
       },
       {
@@ -128,7 +128,7 @@
     "stages": [          
       {
         "img": "images/options/setting_lamp_true.png",
-        "codes": "lamp_shuffle",
+        "codes": "lamp_progression, lamp_shuffle",
         "inherit_codes": false
       },
       {
@@ -148,7 +148,7 @@
     "stages": [          
       {
         "img": "images/options/setting_bracelet_true.png",
-        "codes": "bracelet_skip",
+        "codes": "first_bracelet, bracelet_skip",
         "inherit_codes": false
       },
       {
@@ -168,7 +168,7 @@
     "stages": [          
       {
         "img": "images/options/setting_open_true.png",
-        "codes": "open_true",
+        "codes": "open, open_true",
         "inherit_codes": false
       },
       {
@@ -188,7 +188,7 @@
     "stages": [          
       {
         "img": "images/options/setting_barrier_true.png",
-        "codes": "barrier_start",
+        "codes": "barrier, barrier_start",
         "inherit_codes": false
       },
       {

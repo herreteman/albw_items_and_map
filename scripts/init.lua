@@ -1,4 +1,5 @@
 ScriptHost:LoadScript("scripts/access.lua")
+ScriptHost:LoadScript("scripts/preset.lua")
 
 Tracker:AddItems("items/usable.json")
 Tracker:AddItems("items/equipment.json")
@@ -11,9 +12,9 @@ Tracker:AddLayouts("layouts/options.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
-if Tracker.ActiveVariantUID == "standard" then
-    Tracker:AddMaps("maps/maps.json")
-    Tracker:AddLocations("locations/dungeons.json")
-	Tracker:AddLocations("locations/hyrule.json")
-    Tracker:AddLocations("locations/lorule.json")
-end
+Tracker:AddMaps("maps/maps.json")
+Tracker:AddLocations("locations/dungeons.json")
+Tracker:AddLocations("locations/hyrule.json")
+Tracker:AddLocations("locations/lorule.json")
+
+ScriptHost:LoadScript("scripts/load_presets.lua")

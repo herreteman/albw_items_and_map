@@ -7,13 +7,13 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/options/setting_y_true.png",
-        "codes": "y_button_enabled, y_true",
+        "img": "images/options/setting_y_false.png",
+        "codes": "y_button_enabled, y_false",
         "inherit_codes": false
       },
       {
-        "img": "images/options/setting_y_false.png",
-        "codes": "y_false",
+        "img": "images/options/setting_y_true.png",
+        "codes": "y_true",
         "inherit_codes": false
       }
     ]
@@ -27,13 +27,13 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/options/setting_darkrooms_true.png",
-        "codes": "dont_require_lamp_for_darkness, darkrooms_true",
+        "img": "images/options/setting_darkrooms_false.png",
+        "codes": "dont_require_lamp_for_darkness, darkrooms_false",
         "inherit_codes": false
       },
       {
-        "img": "images/options/setting_darkrooms_false.png",
-        "codes": "darkrooms_false",
+        "img": "images/options/setting_darkrooms_true.png",
+        "codes": "darkrooms_true",
         "inherit_codes": false
       }
     ]
@@ -47,13 +47,13 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/options/setting_bee_true.png",
-        "codes": "require_golden_bee_for_sale, bee_true",
+        "img": "images/options/setting_bee_false.png",
+        "codes": "require_golden_bee_for_sale, bee_false",
         "inherit_codes": false
       },
       {
-        "img": "images/options/setting_bee_false.png",
-        "codes": "bee_false",
+        "img": "images/options/setting_bee_true.png",
+        "codes": "bee_true",
         "inherit_codes": false
       }
     ]
@@ -67,13 +67,13 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/options/setting_keys_true.png",
-        "codes": "unsafe_key_placement, keys_true",
+        "img": "images/options/setting_keys_false.png",
+        "codes": "unsafe_key_placement, keys_false",
         "inherit_codes": false
       },
       {
-        "img": "images/options/setting_keys_false.png",
-        "codes": "keys_false",
+        "img": "images/options/setting_keys_true.png",
+        "codes": "keys_true",
         "inherit_codes": false
       }
     ]
@@ -87,15 +87,16 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/options/setting_captain_true.png",
-        "codes": "captains_sword, captain_skip",
+        "img": "images/options/setting_captain_false.png",
+        "codes": "captains_sword, captain_normal",
         "inherit_codes": false
       },
       {
-        "img": "images/options/setting_captain_false.png",
-        "codes": "captain_normal",
+        "img": "images/options/setting_captain_true.png",
+        "codes": "captain_skip",
         "inherit_codes": false
       }
+      
     ]
   },
 
@@ -107,13 +108,13 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/options/setting_dampe_true.png",
-        "codes": "borrowed_sword, dampe_shuffle",
+        "img": "images/options/setting_dampe_false.png",
+        "codes": "borrowed_sword, dampe_normal",
         "inherit_codes": false
       },
       {
-        "img": "images/options/setting_dampe_false.png",
-        "codes": "dampe_normal",
+        "img": "images/options/setting_dampe_true.png",
+        "codes": "dampe_shuffle",
         "inherit_codes": false
       }
     ]
@@ -127,15 +128,16 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/options/setting_lamp_true.png",
-        "codes": "lamp_progression, lamp_shuffle",
+        "img": "images/options/setting_lamp_false.png",
+        "codes": "lamp_progression, lamp_normal",
         "inherit_codes": false
       },
       {
-        "img": "images/options/setting_lamp_false.png",
-        "codes": "lamp_normal",
+        "img": "images/options/setting_lamp_true.png",
+        "codes": "lamp_shuffle",
         "inherit_codes": false
       }
+      
     ]
   },
 
@@ -147,15 +149,16 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/options/setting_bracelet_true.png",
-        "codes": "first_bracelet, bracelet_skip",
+        "img": "images/options/setting_bracelet_false.png",
+        "codes": "first_bracelet, bracelet_normal",
         "inherit_codes": false
       },
       {
-        "img": "images/options/setting_bracelet_false.png",
-        "codes": "bracelet_normal",
+        "img": "images/options/setting_bracelet_true.png",
+        "codes": "bracelet_skip",
         "inherit_codes": false
       }
+      
     ]
   },
 
@@ -167,15 +170,15 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/options/setting_open_true.png",
-        "codes": "open, open_true",
+        "img": "images/options/setting_open_false.png",
+        "codes": "open, open_false",
         "inherit_codes": false
       },
       {
-        "img": "images/options/setting_open_false.png",
-        "codes": "open_false",
+        "img": "images/options/setting_open_true.png",
+        "codes": "open_true",
         "inherit_codes": false
-      }
+      } 
     ]
   },
 
@@ -187,13 +190,13 @@
     "loop": true,
     "stages": [          
       {
-        "img": "images/options/setting_barrier_true.png",
-        "codes": "barrier, barrier_start",
+        "img": "images/options/setting_barrier_false.png",
+        "codes": "barrier, barrier_normal",
         "inherit_codes": false
       },
       {
-        "img": "images/options/setting_barrier_false.png",
-        "codes": "barrier_normal",
+        "img": "images/options/setting_barrier_true.png",
+        "codes": "barrier_start",
         "inherit_codes": false
       }
     ]

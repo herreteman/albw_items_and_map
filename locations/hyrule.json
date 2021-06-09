@@ -1166,7 +1166,9 @@
                   {
                     "name": "Chest",
                     "access_rules": [
-                        "merge"  
+                        "merge",
+                        "$use, bombs, [merge]", // FRod doesn't have enough space
+                        "$use, trod, [merge]"
                     ],
                     "item_count": 1
                   }

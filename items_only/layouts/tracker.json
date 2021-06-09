@@ -35,7 +35,7 @@
                                     "item_margin": "1,2",
                                     "margin": "10",
                                     "rows": [
-                                        [ "armor1", "sword1", "shield", "strength1", "bracelet", "flippers" ],
+                                        [ "armor1", "sword1", "shield1", "strength1", "bracelet", "flippers" ],
                                         [ "bell", "pouch", "scroll", "maiamai", "beebadge", "boots" ],
                                         [ "ore", "smoothgem", "letter", "premiummilk", "goldbee" ]               
                                     ]

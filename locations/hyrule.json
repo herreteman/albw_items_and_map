@@ -1108,7 +1108,9 @@
         "color": "#80ff00",
         "access_rules": [ 
             "merge",
-            "$projectile"
+            "$projectile",
+            "strength1, [merge]",
+            "strength1, [projectile]"
         ],
         "children":[
             {

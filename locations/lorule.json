@@ -1,6 +1,8 @@
 [
     {
         "name": "Lorule",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "access_rules": [
             "yuga"
         ],

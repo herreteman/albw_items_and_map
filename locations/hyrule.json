@@ -3,6 +3,8 @@
     {
         "name": "Hyrule Field",
         "color": "#2e8537",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "children": [
             {
                 "name": "Hyrule Blacksmith",
@@ -563,6 +565,8 @@
     {
         "name": "Sanctuary",
         "color": "#dedede",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "children": [
             // Shuffled Lamp
             {
@@ -715,6 +719,8 @@
     {
         "name": "Kakariko Village",
         "color": "#00ff37",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "children": [
             {
                 "name": "Kakariko Bar",
@@ -942,6 +948,8 @@
     {
         "name": "Lake Hylia",
         "color": "#0084ff",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "children": [
           {
             "name": "House of Gales Weather Vane",
@@ -1106,6 +1114,8 @@
     {
         "name": "Eastern Ruins",
         "color": "#80ff00",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "access_rules": [ 
             "merge",
             "$projectile",
@@ -1204,6 +1214,8 @@
     {
         "name": "Death Mountain",
         "color": "#ff0000",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "access_rules": [ 
             "[strength1]"
         ],
@@ -1475,6 +1487,8 @@
     {
         "name": "South Hyrule",
         "color": "#858585",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "children": [
             {
                 "name": "Western ledge",
@@ -1575,6 +1589,8 @@
     {
         "name": "Zora's Domain",
         "color": "#0040ff",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "access_rules": [  
         ],
         "children": [
@@ -1693,6 +1709,8 @@
     {
         "name": "Lost Woods",
         "color": "#025714",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "children": [
             {
                 "name": "Big rock chest",

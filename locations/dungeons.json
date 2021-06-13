@@ -4,6 +4,8 @@
         "name": "Eastern Palace",
         "short_name": "Eastern",
         "color": "#80ff00",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "access_rules": [ 
             "merge",
             "$projectile"
@@ -171,6 +173,8 @@
         "name": "House of Gales",
         "short_name": "Gales",
         "color": "#0084ff",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "access_rules": [ 
             "$use, trod, flippers",
 
@@ -290,6 +294,8 @@
         "name": "Tower of Hera",
         "short_name": "Hera",
         "color": "#ff0000",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		    "chest_opened_img": "images/model/chest_open.png",
         "access_rules": [ 
             "$use, [strength1], [merge], hammer"
         ],
@@ -429,6 +435,8 @@
     
     {
         "name": "Lorule",
+        "chest_unopened_img": "images/model/chest_closed.png",
+		"chest_opened_img": "images/model/chest_open.png",
         "access_rules": [
             "yuga"
         ],

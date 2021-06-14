@@ -93,6 +93,20 @@ function projectile_far()
 	end
 end
 
+-- Can the player use projectiles to damage enemies?
+function projectile_damage()
+    if use() and 
+        (has("bow") or
+        has("bombs") or
+        has("niceirod")) then
+        return true, AccessibilityLevel.Normal
+    elseif has("sword2") then
+        return true, AccessibilityLevel.SequenceBreak
+	else
+		return false, AccessibilityLevel.None
+	end
+end
+
 -- Can the player damage boost to a ledge?
 function ledge()
     return use() and

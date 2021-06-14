@@ -103,7 +103,7 @@
             {
                 "name": "Yuga reward",
                 "access_rules": [ 
-                    "$projectile_far",
+                    "$projectile_damage",
                     "$stun_far, $damage",
 
                     // Fire Rod with pots is not covered by the above
@@ -116,7 +116,7 @@
             {
                 "name": "Heart Container",
                 "access_rules": [ 
-                    "$projectile_far",
+                    "$projectile_damage",
                     "$stun_far, $damage",
 
                     // Fire Rod with pots is not covered by the above

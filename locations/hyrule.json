@@ -53,6 +53,8 @@
             {
               "name": "Behind Blacksmith",
               "short_name": "Behind Blacksmith",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -77,6 +79,8 @@
             {
             "name": "Blacksmith cave",
             "short_name": "Blacksmith cave",
+            "chest_unopened_img": "images/model/heart_piece.png",
+            "chest_opened_img": "images/model/heart_piece_grey.png",
             "map_locations": [
               {
                 "map": "hyrule",
@@ -145,6 +149,8 @@
             {
               "name": "Hyrule Castle Area",
               "short_name": "Castle Area",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -515,6 +521,8 @@
               "name": "EP SE sub-area",
               "color": "#80ff00",
               "short_name": "EP SE",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -539,6 +547,8 @@
               "name": "EP blocked cave",
               "color": "#80ff00",
               "short_name": "EP cave",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -608,6 +618,8 @@
                   {
                     "name": "Ledge HP",
                     "capture_item": true,
+                    "chest_unopened_img": "images/model/heart_piece.png",
+                    "chest_opened_img": "images/model/heart_piece_grey.png",
                     "access_rules": [ 
                       "{$fire}", 
                       "$fire, merge, [$darkrooms]" 
@@ -658,6 +670,8 @@
                 {
                   "name": "Ledge HP",
                   "capture_item": true,
+                  "chest_unopened_img": "images/model/heart_piece.png",
+                  "chest_opened_img": "images/model/heart_piece_grey.png",
                   "access_rules": [ 
                     "{$fire}", 
                     "$fire, merge, [$darkrooms]" 
@@ -695,6 +709,8 @@
             {
               "name": "Sanctuary ledge",
               "short_name": "Sanctuary ledge",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -918,6 +934,8 @@
             {
                 "name": "Kakariko Well",
                 "short_name": "Well",
+                "chest_unopened_img": "images/model/heart_piece.png",
+                "chest_opened_img": "images/model/heart_piece_grey.png",
                 "map_locations": [
                   {
                     "map": "hyrule",
@@ -1393,6 +1411,8 @@
             {
               "name": "Near Hera",
               "short_name": "Near Hera",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -1414,6 +1434,8 @@
             {
               "name": "Floating island",
               "short_name": "Floating island",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -1463,6 +1485,8 @@
             {
               "name": "Rosso's Ore Mine",
               "short_name": "Ore Mine",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -1535,6 +1559,8 @@
             {
               "name": "SE cave exit",
               "short_name": "SE cave",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -1641,6 +1667,8 @@
             {
               "name": "Waterfall cave",
               "short_name": "Waterfall cave",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",
@@ -1739,6 +1767,8 @@
             {
               "name": "North Lost Woods",
               "short_name": "Lost Woods",
+              "chest_unopened_img": "images/model/heart_piece.png",
+              "chest_opened_img": "images/model/heart_piece_grey.png",
               "map_locations": [
                 {
                   "map": "hyrule",

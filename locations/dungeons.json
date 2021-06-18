@@ -115,6 +115,8 @@
 
             {
                 "name": "Heart Container",
+                "chest_unopened_img": "images/model/heart_container.png",
+		        "chest_opened_img": "images/model/heart_container_grey.png",
                 "access_rules": [ 
                     "$projectile_damage",
                     "$stun_far, $damage",
@@ -174,7 +176,7 @@
         "short_name": "Gales",
         "color": "#0084ff",
         "chest_unopened_img": "images/model/chest_closed.png",
-		    "chest_opened_img": "images/model/chest_open.png",
+		"chest_opened_img": "images/model/chest_open.png",
         "access_rules": [ 
             "$use, trod, flippers",
 
@@ -232,6 +234,8 @@
 
             {
                 "name": "2F ledge key",
+                "chest_unopened_img": "images/sprite/key_small.png",
+		        "chest_opened_img": "images/sprite/key_small_obtained.png",
                 "access_rules": [ 
                     "[merge]"
                 ],
@@ -240,6 +244,8 @@
 
             {
                 "name": "2F fire ring key",
+                "chest_unopened_img": "images/sprite/key_small.png",
+		        "chest_opened_img": "images/sprite/key_small_obtained.png",
                 "access_rules": [ 
                     "[merge]"
                 ],
@@ -272,6 +278,8 @@
 
             {
                 "name": "Margomill HC",
+                "chest_unopened_img": "images/model/heart_container.png",
+		        "chest_opened_img": "images/model/heart_container_grey.png",
                 "access_rules": [ 
                     "merge, [$fire], $damage"
                 ],
@@ -326,6 +334,8 @@
 
             {
                 "name": "3F key",
+                "chest_unopened_img": "images/sprite/key_small.png",
+		        "chest_opened_img": "images/sprite/key_small_obtained.png",
                 "access_rules": [ 
                     "merge",
                     "bombs, sword1, [merge]"
@@ -389,6 +399,8 @@
 
             {
                 "name": "Moldorm HC",
+                "chest_unopened_img": "images/model/heart_container.png",
+		        "chest_opened_img": "images/model/heart_container_grey.png",
                 "access_rules": [ 
                     "merge",
                     "trod, bombs, sword1, [merge]"
@@ -465,6 +477,8 @@
 
                     {
                         "name": "Second room small key",
+                        "chest_unopened_img": "images/sprite/key_small.png",
+		                "chest_opened_img": "images/sprite/key_small_obtained.png",
                         "item_count": 1
                     },
 
@@ -500,6 +514,8 @@
 
                     {
                         "name": "B1F fall from center 1F",
+                        "chest_unopened_img": "images/sprite/key_small.png",
+		                "chest_opened_img": "images/sprite/key_small_obtained.png",
                         "item_count": 1
                     },
 
@@ -510,6 +526,8 @@
 
                     {
                         "name": "B1F invisible floor key",
+                        "chest_unopened_img": "images/sprite/key_small.png",
+		                "chest_opened_img": "images/sprite/key_small_obtained.png",
                         "item_count": 1
                     },
 
@@ -525,6 +543,8 @@
 
                     {
                         "name": "Gemasaur HC",
+                        "chest_unopened_img": "images/model/heart_container.png",
+		                "chest_opened_img": "images/model/heart_container_grey.png",
                         "item_count": 1
                     },
 
@@ -569,6 +589,8 @@
 
                     {
                         "name": "B1F east key",
+                        "chest_unopened_img": "images/sprite/key_small.png",
+		                "chest_opened_img": "images/sprite/key_small_obtained.png",
                         "item_count": 1
                     },
 
@@ -584,6 +606,8 @@
 
                     {
                         "name": "B1F rafts key",
+                        "chest_unopened_img": "images/sprite/key_small.png",
+		                "chest_opened_img": "images/sprite/key_small_obtained.png",
                         "item_count": 1
                     },
 
@@ -614,6 +638,8 @@
 
                     {
                         "name": "Arrghus HC",
+                        "chest_unopened_img": "images/model/heart_container.png",
+		                "chest_opened_img": "images/model/heart_container_grey.png",
                         "item_count": 1
                     },
 
@@ -653,6 +679,8 @@
 
                     {
                         "name": "B2F ice pillar key",
+                        "chest_unopened_img": "images/sprite/key_small.png",
+		                "chest_opened_img": "images/sprite/key_small_obtained.png",
                         "item_count": 1
                     },
 
@@ -668,6 +696,8 @@
 
                     {
                         "name": "B1F torches key",
+                        "chest_unopened_img": "images/sprite/key_small.png",
+		                "chest_opened_img": "images/sprite/key_small_obtained.png",
                         "item_count": 1
                     },
 
@@ -712,6 +742,8 @@
 
                     {
                         "name": "Dharkstare HC",
+                        "chest_unopened_img": "images/model/heart_container.png",
+		                "chest_opened_img": "images/model/heart_container_grey.png",
                         "item_count": 1
                     },
 
@@ -749,6 +781,8 @@
 
                     {
                         "name": "1F NE ledge key",
+                        "chest_unopened_img": "images/sprite/key_small.png",
+		                "chest_opened_img": "images/sprite/key_small_obtained.png",
                         "item_count": 1
                     },
 
@@ -764,6 +798,8 @@
 
                     {
                         "name": "1F SW teleporters key",
+                        "chest_unopened_img": "images/sprite/key_small.png",
+		                "chest_opened_img": "images/sprite/key_small_obtained.png",
                         "item_count": 1
                     },
 
@@ -784,6 +820,8 @@
 
                     {
                         "name": "B1F NE room key",
+                        "chest_unopened_img": "images/sprite/key_small.png",
+		                "chest_opened_img": "images/sprite/key_small_obtained.png",
                         "item_count": 1
                     },
 
@@ -799,6 +837,8 @@
 
                     {
                         "name": "Grinexx HC",
+                        "chest_unopened_img": "images/model/heart_container.png",
+		                "chest_opened_img": "images/model/heart_container_grey.png",
                         "item_count": 1
                     },
 
@@ -877,6 +917,8 @@
 
                     {
                         "name": "Knucklemaster HC",
+                        "chest_unopened_img": "images/model/heart_container.png",
+		                "chest_opened_img": "images/model/heart_container_grey.png",
                         "access_rules": [
                             "[$fire], [$darkrooms]"  
                         ],
@@ -990,6 +1032,8 @@
 
                     {
                         "name": "Stalblind HC",
+                        "chest_unopened_img": "images/model/heart_container.png",
+		                "chest_opened_img": "images/model/heart_container_grey.png",
                         "access_rules": [
                             "$damage, flippers",
                             
@@ -1153,6 +1197,8 @@
 
                     {
                         "name": "Zaganaga HC",
+                        "chest_unopened_img": "images/model/heart_container.png",
+		                "chest_opened_img": "images/model/heart_container_grey.png",
                         "access_rules": [
                             "$use, srod, strength2",
 

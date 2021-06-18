@@ -77,6 +77,8 @@
                     {
                       "name": "Dark Maze",
                       "short_name": "Dark Maze",
+                      "chest_unopened_img": "images/model/heart_piece.png",
+                      "chest_opened_img": "images/model/heart_piece_grey.png",
                       "map_locations": [
                         {
                           "map": "lorule",
@@ -343,6 +345,8 @@
                 {
                     "name": "South Portal building",
                     "short_name": "South Portal",
+                    "chest_unopened_img": "images/model/heart_piece.png",
+                    "chest_opened_img": "images/model/heart_piece_grey.png",
                     "map_locations": [
                       {
                         "map": "lorule",
@@ -364,6 +368,8 @@
                 {
                   "name": "House ruins",
                   "short_name": "House ruins",
+                  "chest_unopened_img": "images/model/heart_piece.png",
+                  "chest_opened_img": "images/model/heart_piece_grey.png",
                   "map_locations": [
                     {
                       "map": "lorule",
@@ -552,6 +558,8 @@
                               },
                               {
                                 "name": "Ledge key",
+                                "chest_unopened_img": "images/sprite/key_small.png",
+		                            "chest_opened_img": "images/sprite/key_small_obtained.png",
                                 "item_count": 1
                               },
                               {
@@ -565,8 +573,8 @@
                     },
 
                     {
-                        "name": "SE from cemetery",
-                        "short_name": "Cemetery area",
+                        "name": "SE from graveyard",
+                        "short_name": "Graveyard area",
                         "map_locations": [
                           {
                             "map": "lorule",
@@ -613,6 +621,8 @@
                     {
                       "name": "Desert NE portal ledge",
                       "short_name": "Desert NE portal",
+                      "chest_unopened_img": "images/model/heart_piece.png",
+                      "chest_opened_img": "images/model/heart_piece_grey.png",
                       "map_locations": [
                         {
                           "map": "lorule",
@@ -670,6 +680,8 @@
                     {
                       "name": "TR northwest exit",
                       "short_name": "TR NW exit",
+                      "chest_unopened_img": "images/model/heart_piece.png",
+                      "chest_opened_img": "images/model/heart_piece_grey.png",
                       "map_locations": [
                         {
                           "map": "lorule",

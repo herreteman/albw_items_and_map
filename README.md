@@ -19,4 +19,4 @@ Up to date logic with randomizer version 0.2.0
 * Not all combinations of settings produce a completable seed, even if the tracker may say otherwise
 
 ## Collaborators
-* Thank you DGod63 for the better Bell and Pouch icons, as well as the !
+* Thank you DGod63 for the better Bell and Pouch icons, as well as high quality closed/open chest images!

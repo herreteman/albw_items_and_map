@@ -306,7 +306,9 @@
                           {
                             "name": "Treasure",
                             "access_rules": [
-                                "boots" 
+                                "boots",
+                                "bombs, [boots]",
+                                "boomerang, [boots]"
                             ],
                             "item_count": 1
                           }
